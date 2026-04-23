@@ -92,6 +92,8 @@ _Kuvaa tässä kuinka projekti aikoo hallinnoida ja seurata projektiriskejä._
 
 Esimerkiksi näin.
 
-| Riskit                                                       | Todennäköisyys | Impakti | Minimointi                             |
-| ------------------------------------------------------------ | -------------- | ------- | -------------------------------------- |
-| Työntekijät eivät ole motivoituneita ja eivät saavu paikalle | Pieni          | Suuri   | Pidetään työpaikalla kahvia ja pullaa. |
+| Riskit                                                                     | Todennäköisyys | Impakti     | Minimointi                                   |
+| -------------------------------------------------------------------------- | -------------- | ----------- | -------------------------------------------- |
+| Työntekijät eivät ole motivoituneita ja eivät saavu paikalle               | Pieni          | Suuri       | Pidetään työpaikalla kahvia ja pullaa.       |
+| Joku ei ymmärrä jotain asiaa itse                                          | Suht pieni     | Suuri       | Kysyy missä kohtaan tahansa muun tiimin apua |
+| Alkaa uuvuttaa ja istuminen sattuu, jonka vuoksi keskittyminenkin hankalaa | Suuri          | Kohtalainen | Pidetään riittävästi niitä taukoja!          |
