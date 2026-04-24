@@ -1,13 +1,13 @@
 --START
 This is a example template, which you can use. Version 1.0.
 --END
-# Project Title
+# Oscards
 
-Simple overview of use/purpose.
+Löydät oscar voittajat ja heidän teoksia
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Oscard on .....
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names
+Tuomas Huhtala, Patrick Uimonen, Nathalie Penttilä, Joel Hänninen
 
 ## Version History
 
