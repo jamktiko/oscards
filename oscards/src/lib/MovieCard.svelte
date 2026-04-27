@@ -20,16 +20,20 @@
 <div>
 	<button>
 		<Poster {elokuvaTunnus} />
-		<div>tähän pokaalit</div>
+		<div>
+			{#each Array(movie?.oscarWins) as oscars}
+				<img src="/img/oscarPalkinto.png" alt="" class="h-5 w-5" />
+			{/each}
+		</div>
 		<div>
 			<h2>{movie?.title}</h2>
-			<p>Year{movie?.year}</p>
-			<p>Lenght: {runTime(movie?.length ?? 0)}</p>
-			<p>Rating by IMDb: {movie?.imdbRating}</p>
+			<p>{movie?.year}</p>
+			<p>{runTime(movie?.length ?? 0)}</p>
+			<p>IMDb rating: {movie?.imdbRating}</p>
 			<h2>Streaming</h2>
 			<div>
 				{#each movie?.streaming as streamin}
-					<img src={streamin} alt="" />
+					<img src={streamin} alt="" class="h-5 w-5" />
 				{/each}
 			</div>
 		</div>

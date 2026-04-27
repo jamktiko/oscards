@@ -23,7 +23,7 @@
   {"id":19,"title":"Interstellar","year":2014,"length":169,"imdbRating":8.7,"oscarWins":1,"streaming":[],"imdbID":"tt0816692"},
   {"id":20,"title":"A Time to Kill","year":1996,"length":149,"imdbRating":7.5,"oscarWins":0,"streaming":[],"imdbID":"tt0117913"},
 
-  {"id":21,"title":"Oppenheimer","year":2024,"length":180,"imdbRating":8.2,"oscarWins":7,"streaming":[],"imdbID":"tt15398776"},
+  {"id":21,"title":"Oppenheimer","year":2024,"length":180,"imdbRating":8.2,"oscarWins":7,"streaming":["https://upload.wikimedia.org/wikipedia/commons/0/03/Netflix-icon.png"],"imdbID":"tt15398776"},
   {"id":22,"title":"28 Days Later","year":2002,"length":113,"imdbRating":7.6,"oscarWins":0,"streaming":[],"imdbID":"tt0289043"},
   {"id":23,"title":"The Dark Knight","year":2008,"length":152,"imdbRating":9.0,"oscarWins":2,"streaming":[],"imdbID":"tt0468569"},
   {"id":24,"title":"Inception","year":2010,"length":148,"imdbRating":8.8,"oscarWins":4,"streaming":[],"imdbID":"tt1375666"},
