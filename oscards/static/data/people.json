@@ -6,7 +6,8 @@
     "nationality": "American",
     "oscarNominations": 1,
     "ocscarWins": 1,
-    "totalMovies": "50-60"
+    "totalMovies": "50-60",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Matthew_McConaughey_2019_%2848648344772%29.jpg"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "nationality": "American",
     "oscarNominations": 4,
     "ocscarWins": 2,
-    "totalMovies": "30-40"
+    "totalMovies": "30-40",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Emma_Stone_at_the_2024_New_York_Film_Festival_1_%28cropped%29.jpg"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "nationality": "American",
     "oscarNominations": 7,
     "ocscarWins": 1,
-    "totalMovies": "40-50"
+    "totalMovies": "40-50",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Leonardo_Dicaprio_Cannes_2019.jpg"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "nationality": "Israeli-American",
     "oscarNominations": 3,
     "ocscarWins": 1,
-    "totalMovies": "40-50"
+    "totalMovies": "40-50",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Natalie_Portman_%2848470988352%29_%28cropped%29.jpg"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "nationality": "Irish",
     "oscarNominations": 1,
     "ocscarWins": 1,
-    "totalMovies": "30-40"
+    "totalMovies": "30-40",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/CillianMurphy-TIFF2025-01-Cropped_%28cropped%29.png"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "nationality": "American",
     "oscarNominations": 16,
     "ocscarWins": 1,
-    "totalMovies": "25-30"
+    "totalMovies": "25-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Martin_Scorsese-68749.jpg"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "nationality": "British-American",
     "oscarNominations": 8,
     "ocscarWins": 2,
-    "totalMovies": "10-15"
+    "totalMovies": "10-15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Christopher_Nolan%2C_London%2C_2013_%28crop%29.jpg"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "nationality": "American",
     "oscarNominations": 11,
     "ocscarWins": 3,
-    "totalMovies": "10-15"
+    "totalMovies": "10-15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Paul_Thomas_Anderson_-_BFI_Southbank.jpg"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "nationality": "Canadian",
     "oscarNominations": 9,
     "ocscarWins": 3,
-    "totalMovies": "10-15"
+    "totalMovies": "10-15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/James_Cameron_%2828003289954%29_Cropped.png"
   },
   {
     "id": 10,
@@ -87,6 +96,7 @@
     "nationality": "New Zealander",
     "oscarNominations": 2,
     "ocscarWins": 1,
-    "totalMovies": "10-15"
+    "totalMovies": "10-15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Jane_Campion_DNZM_%28cropped%29.jpg"
   }
 ]
