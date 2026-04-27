@@ -3,6 +3,7 @@
   import type {Person} from "$lib/tyypit"
   let { nimi }: { nimi: string } =$props();
   let persons: Person[] = $state([])
+
  
   onMount(async () => {
     const response = await fetch (`/data/people.json`);
@@ -16,5 +17,24 @@
 </script>
 
 <div> 
-  <p> </p>
+  <button>
+  <div class="m-10 h-50 w-50"> 
+    <img src={kuva} alt=""/>
+  </div>
+    <div> 
+      <h1>
+      {person?.name}
+    </h1>
+    </div>
+    <div> 
+      <p> Born: {person?.born}</p>
+      <p> Nationality: {person?.nationality}</p>
+      <p> Total movies: {person?.totalMovies}</p>
+      <p> Oscar  nominations: {person?.oscarNominations}</p>
+    </div>
+    <div> 
+      <p> Oscars won: </p>
+    </div>
+
+  </button>
 </div>
