@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Matthew McConaughey",
-    "born": 1969,
+    "born": "4.11.1969",
     "nationality": "American",
     "oscarNominations": 1,
     "ocscarWins": 1,
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Emma Stone",
-    "born": 1988,
+    "born": "6.11.1988",
     "nationality": "American",
     "oscarNominations": 4,
     "ocscarWins": 2,
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "Leonardo DiCaprio",
-    "born": 1974,
+    "born": "11.11.1974",
     "nationality": "American",
     "oscarNominations": 7,
     "ocscarWins": 1,
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Natalie Portman",
-    "born": 1981,
+    "born": "9.6.1981",
     "nationality": "Israeli-American",
     "oscarNominations": 3,
     "ocscarWins": 1,
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "Cillian Murphy",
-    "born": 1976,
+    "born": "25.5.1976",
     "nationality": "Irish",
     "oscarNominations": 1,
     "ocscarWins": 1,
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "name": "Martin Scorsese",
-    "born": 1942,
+    "born": "17.11.1942",
     "nationality": "American",
     "oscarNominations": 16,
     "ocscarWins": 1,
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "name": "Christopher Nolan",
-    "born": 1970,
+    "born": "30.7.1970",
     "nationality": "British-American",
     "oscarNominations": 8,
     "ocscarWins": 2,
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "Paul Thomas Anderson",
-    "born": 1970,
+    "born": "26.6.1970",
     "nationality": "American",
     "oscarNominations": 11,
     "ocscarWins": 3,
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "name": "James Cameron",
-    "born": 1954,
+    "born": "16.8.1954",
     "nationality": "Canadian",
     "oscarNominations": 9,
     "ocscarWins": 3,
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "name": "Jane Campion",
-    "born": 1954,
+    "born": "30.4.1954",
     "nationality": "New Zealander",
     "oscarNominations": 2,
     "ocscarWins": 1,
