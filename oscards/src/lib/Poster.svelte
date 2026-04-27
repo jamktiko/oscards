@@ -14,6 +14,6 @@
 	});
 </script>
 
-<div class=" m-10 h-200 w-100">
+<div class=" h-30 w-20">
 	<img src={poster} alt="Ladataan..." />
 </div>
