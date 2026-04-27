@@ -16,4 +16,5 @@ export type Person = {
 	oscarNominations: number;
 	ocscarWins: number;
 	totalMovies: string;
+	image: string;
 };
