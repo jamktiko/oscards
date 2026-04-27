@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Matthew McConaughey",
+    "born": 1969,
+    "nationality": "American",
+    "oscarNominations": 1,
+    "ocscarWins": 1,
+    "totalMovies": "50-60"
+  },
+  {
+    "id": 2,
+    "name": "Emma Stone",
+    "born": 1988,
+    "nationality": "American",
+    "oscarNominations": 4,
+    "ocscarWins": 2,
+    "totalMovies": "30-40"
+  },
+  {
+    "id": 3,
+    "name": "Leonardo DiCaprio",
+    "born": 1974,
+    "nationality": "American",
+    "oscarNominations": 7,
+    "ocscarWins": 1,
+    "totalMovies": "40-50"
+  },
+  {
+    "id": 4,
+    "name": "Natalie Portman",
+    "born": 1981,
+    "nationality": "Israeli-American",
+    "oscarNominations": 3,
+    "ocscarWins": 1,
+    "totalMovies": "40-50"
+  },
+  {
+    "id": 5,
+    "name": "Cillian Murphy",
+    "born": 1976,
+    "nationality": "Irish",
+    "oscarNominations": 1,
+    "ocscarWins": 1,
+    "totalMovies": "30-40"
+  },
+  {
+    "id": 6,
+    "name": "Martin Scorsese",
+    "born": 1942,
+    "nationality": "American",
+    "oscarNominations": 16,
+    "ocscarWins": 1,
+    "totalMovies": "25-30"
+  },
+  {
+    "id": 7,
+    "name": "Christopher Nolan",
+    "born": 1970,
+    "nationality": "British-American",
+    "oscarNominations": 8,
+    "ocscarWins": 2,
+    "totalMovies": "10-15"
+  },
+  {
+    "id": 8,
+    "name": "Paul Thomas Anderson",
+    "born": 1970,
+    "nationality": "American",
+    "oscarNominations": 11,
+    "ocscarWins": 3,
+    "totalMovies": "10-15"
+  },
+  {
+    "id": 9,
+    "name": "James Cameron",
+    "born": 1954,
+    "nationality": "Canadian",
+    "oscarNominations": 9,
+    "ocscarWins": 3,
+    "totalMovies": "10-15"
+  },
+  {
+    "id": 10,
+    "name": "Jane Campion",
+    "born": 1954,
+    "nationality": "New Zealander",
+    "oscarNominations": 2,
+    "ocscarWins": 1,
+    "totalMovies": "10-15"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {"id":1,"title":"Black Swan","year":2010,"length":108,"imdbRating":8.0,"oscarWins":1,"streaming":[],"imdbID":"tt0947798"},
+  {"id":2,"title":"Jackie","year":2016,"length":100,"imdbRating":6.6,"oscarWins":0,"streaming":[],"imdbID":"tt1619029"},
+  {"id":3,"title":"V for Vendetta","year":2005,"length":132,"imdbRating":8.2,"oscarWins":0,"streaming":[],"imdbID":"tt0434409"},
+  {"id":4,"title":"Closer","year":2004,"length":104,"imdbRating":7.2,"oscarWins":0,"streaming":[],"imdbID":"tt0376541"},
+  {"id":5,"title":"Thor","year":2011,"length":115,"imdbRating":7.0,"oscarWins":0,"streaming":[],"imdbID":"tt0800369"},
+
+  {"id":6,"title":"La La Land","year":2016,"length":128,"imdbRating":8.0,"oscarWins":6,"streaming":[],"imdbID":"tt3783958"},
+  {"id":7,"title":"Poor Things","year":2023,"length":141,"imdbRating":8.0,"oscarWins":4,"streaming":[],"imdbID":"tt14230458"},
+  {"id":8,"title":"Piiat","year":2011,"length":146,"imdbRating":8.1,"oscarWins":1,"streaming":[],"imdbID":"tt1454029"},
+  {"id":9,"title":"Easy A","year":2010,"length":92,"imdbRating":7.0,"oscarWins":0,"streaming":[],"imdbID":"tt1282140"},
+  {"id":10,"title":"Bugonia","year":2024,"length":120,"imdbRating":6.5,"oscarWins":0,"streaming":[],"imdbID":"tt27491225"},
+
+  {"id":11,"title":"The Revenant","year":2015,"length":156,"imdbRating":8.0,"oscarWins":3,"streaming":[],"imdbID":"tt1663202"},
+  {"id":12,"title":"Titanic","year":1997,"length":195,"imdbRating":7.9,"oscarWins":11,"streaming":[],"imdbID":"tt0120338"},
+  {"id":13,"title":"Inception","year":2010,"length":148,"imdbRating":8.8,"oscarWins":4,"streaming":[],"imdbID":"tt1375666"},
+  {"id":14,"title":"The Departed","year":2006,"length":151,"imdbRating":8.5,"oscarWins":4,"streaming":[],"imdbID":"tt0407887"},
+  {"id":15,"title":"The Wolf of Wall Street","year":2013,"length":180,"imdbRating":8.2,"oscarWins":0,"streaming":[],"imdbID":"tt0993846"},
+
+  {"id":16,"title":"Dallas Buyers Club","year":2013,"length":117,"imdbRating":7.9,"oscarWins":3,"streaming":[],"imdbID":"tt0790636"},
+  {"id":17,"title":"Interstellar","year":2014,"length":169,"imdbRating":8.7,"oscarWins":1,"streaming":[],"imdbID":"tt0816692"},
+  {"id":18,"title":"Mud","year":2012,"length":130,"imdbRating":7.4,"oscarWins":0,"streaming":[],"imdbID":"tt1935179"},
+  {"id":19,"title":"Interstellar","year":2014,"length":169,"imdbRating":8.7,"oscarWins":1,"streaming":[],"imdbID":"tt0816692"},
+  {"id":20,"title":"A Time to Kill","year":1996,"length":149,"imdbRating":7.5,"oscarWins":0,"streaming":[],"imdbID":"tt0117913"},
+
+  {"id":21,"title":"Oppenheimer","year":2024,"length":180,"imdbRating":8.2,"oscarWins":7,"streaming":[],"imdbID":"tt15398776"},
+  {"id":22,"title":"28 Days Later","year":2002,"length":113,"imdbRating":7.6,"oscarWins":0,"streaming":[],"imdbID":"tt0289043"},
+  {"id":23,"title":"The Dark Knight","year":2008,"length":152,"imdbRating":9.0,"oscarWins":2,"streaming":[],"imdbID":"tt0468569"},
+  {"id":24,"title":"Inception","year":2010,"length":148,"imdbRating":8.8,"oscarWins":4,"streaming":[],"imdbID":"tt1375666"},
+  {"id":25,"title":"Dunkirk","year":2017,"length":106,"imdbRating":7.8,"oscarWins":3,"streaming":[],"imdbID":"tt5013056"},
+
+  {"id":26,"title":"The Departed","year":2006,"length":151,"imdbRating":8.5,"oscarWins":4,"streaming":[],"imdbID":"tt0407887"},
+  {"id":27,"title":"Killers of the Flower Moon","year":2023,"length":206,"imdbRating":7.6,"oscarWins":0,"streaming":[],"imdbID":"tt5537002"},
+  {"id":28,"title":"Goodfellas","year":1990,"length":146,"imdbRating":8.7,"oscarWins":1,"streaming":[],"imdbID":"tt0099685"},
+  {"id":29,"title":"Taxi Driver","year":1976,"length":114,"imdbRating":8.2,"oscarWins":0,"streaming":[],"imdbID":"tt0075314"},
+  {"id":30,"title":"Shutter Island","year":2010,"length":138,"imdbRating":8.2,"oscarWins":0,"streaming":[],"imdbID":"tt1130884"},
+
+  {"id":31,"title":"Oppenheimer","year":2024,"length":180,"imdbRating":8.2,"oscarWins":7,"streaming":[],"imdbID":"tt15398776"},
+  {"id":32,"title":"Interstellar","year":2014,"length":169,"imdbRating":8.7,"oscarWins":1,"streaming":[],"imdbID":"tt0816692"},
+  {"id":33,"title":"Inception","year":2010,"length":148,"imdbRating":8.8,"oscarWins":4,"streaming":[],"imdbID":"tt1375666"},
+  {"id":34,"title":"Dunkirk","year":2017,"length":106,"imdbRating":7.8,"oscarWins":3,"streaming":[],"imdbID":"tt5013056"},
+  {"id":35,"title":"The Prestige","year":2006,"length":130,"imdbRating":8.5,"oscarWins":0,"streaming":[],"imdbID":"tt0482571"},
+
+  {"id":36,"title":"One Battle After Another","year":2025,"length":140,"imdbRating":6.5,"oscarWins":0,"streaming":[],"imdbID":"tt20215234"},
+  {"id":37,"title":"Boogie Nights","year":1997,"length":155,"imdbRating":7.9,"oscarWins":0,"streaming":[],"imdbID":"tt0118749"},
+  {"id":38,"title":"Magnolia","year":1999,"length":188,"imdbRating":8.0,"oscarWins":0,"streaming":[],"imdbID":"tt0175880"},
+  {"id":39,"title":"There Will Be Blood","year":2007,"length":158,"imdbRating":8.2,"oscarWins":2,"streaming":[],"imdbID":"tt0469494"},
+  {"id":40,"title":"Hard Eight","year":1996,"length":101,"imdbRating":7.2,"oscarWins":0,"streaming":[],"imdbID":"tt0119256"},
+
+  {"id":41,"title":"Titanic","year":1997,"length":195,"imdbRating":7.9,"oscarWins":11,"streaming":[],"imdbID":"tt0120338"},
+  {"id":42,"title":"Avatar","year":2009,"length":162,"imdbRating":7.9,"oscarWins":3,"streaming":[],"imdbID":"tt0499549"},
+  {"id":43,"title":"The Terminator","year":1984,"length":107,"imdbRating":8.1,"oscarWins":0,"streaming":[],"imdbID":"tt0088247"},
+  {"id":44,"title":"Aliens","year":1986,"length":137,"imdbRating":8.4,"oscarWins":2,"streaming":[],"imdbID":"tt0090605"},
+  {"id":45,"title":"Avatar: The Way of Water","year":2022,"length":192,"imdbRating":7.6,"oscarWins":1,"streaming":[],"imdbID":"tt1630029"},
+
+  {"id":46,"title":"The Piano","year":1993,"length":121,"imdbRating":7.5,"oscarWins":3,"streaming":[],"imdbID":"tt0107822"},
+  {"id":47,"title":"The Power of the Dog","year":2021,"length":126,"imdbRating":6.8,"oscarWins":1,"streaming":[],"imdbID":"tt10293406"},
+  {"id":48,"title":"Bright Star","year":2009,"length":119,"imdbRating":6.9,"oscarWins":0,"streaming":[],"imdbID":"tt0810784"},
+  {"id":49,"title":"Sweetie","year":1989,"length":97,"imdbRating":6.7,"oscarWins":0,"streaming":[],"imdbID":"tt0098725"},
+  {"id":50,"title":"8","year":2008,"length":100,"imdbRating":5.8,"oscarWins":0,"streaming":[],"imdbID":"tt0493101"}
+]
