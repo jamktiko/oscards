@@ -4,6 +4,7 @@
 	import Header from '$lib/Header.svelte';
 	import MovieCard from '$lib/MovieCard.svelte';
 	import PersonCard from '$lib/PersonCard.svelte';
+	import { favorite } from '$lib/favorites.svelte';
 
 	let otsikko = $state('Actors');
 
@@ -34,7 +35,7 @@
 						nimi={actor.name}
 						onclick={() => {
 							currentActor = actor.name;
-							otsikko = `${actor.name} elokuvat`;
+							otsikko = `Top 5 Titles`;
 						}}
 					/>
 				{/each}
