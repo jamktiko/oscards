@@ -14,7 +14,6 @@
 		rel="stylesheet"
 	/></svelte:head
 >
-<Header otsikko="Koti" />
 <main>
 	{@render children()}
 </main>

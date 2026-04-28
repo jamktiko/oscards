@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Person } from '$lib/tyypit';
-	let { nimi }: { nimi: string } = $props();
+	let { nimi, onclick }: { nimi: string; onclick: () => void } = $props();
 	let persons: Person[] = $state([]);
 
 	onMount(async () => {
@@ -15,7 +15,7 @@
 </script>
 
 <div>
-	<button>
+	<button {onclick}>
 		<div class="m-10 h-30 w-20">
 			<img src={kuva} alt="" />
 		</div>
