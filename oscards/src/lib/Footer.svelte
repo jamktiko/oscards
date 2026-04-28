@@ -1,4 +1,5 @@
 <script lang="ts">
+	  import CategoryButton from '../routes/categoryButton.svelte';
 </script>
 
 <div
@@ -7,5 +8,10 @@
 	<div class="font-judson justify-start text-2xl font-bold text-zinc-300">
 		Copyright 2026 © OsCards co.
 	</div>
-	<div class="font-judson justify-start text-2xl font-bold text-zinc-300">Credits</div>
+
+<CategoryButton
+  text="Credits"
+  onclick={() => console.log('clicked')}
+  class="font-judson justify-start text-2xl font-bold text-zinc-300"
+/>	
 </div>
