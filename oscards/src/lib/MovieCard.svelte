@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import type { Movie } from '$lib/tyypit';
 	import Poster from './Poster.svelte';
+	import { favorite } from '$lib/favorites.svelte';
 	let { elokuvaTunnus }: { elokuvaTunnus: string } = $props();
 	let movies: Movie[] = $state([]);
 	onMount(async () => {
@@ -18,6 +19,10 @@
 </script>
 
 <div>
+	<button
+		class="material-symbols-outlined cursor-pointer"
+		onclick={() => (favorite.fav = elokuvaTunnus)}>favorite</button
+	>
 	<button>
 		<Poster {elokuvaTunnus} />
 		<div>

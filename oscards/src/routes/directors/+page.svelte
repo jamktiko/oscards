@@ -34,7 +34,7 @@
 						nimi={director.name}
 						onclick={() => {
 							currentDirector = director.name;
-							otsikko = `${director.name} elokuvat`;
+							otsikko = `Top 5 Titles`;
 						}}
 					/>
 				{/each}
