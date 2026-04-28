@@ -5,6 +5,10 @@
 	--font-judson: 'Judson', serif;
 }
 
+.img {
+	width: auto;
+}
+
 .material-symbols-outlined {
 	font-family: 'Material Symbols Outlined';
 	font-weight: normal;
