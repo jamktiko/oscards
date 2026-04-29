@@ -7,6 +7,6 @@
 			Copyright 2026 © OsCards co.
 		</div>
 
-		<a href="/credits">Credits</a>
+		<a href="/about">Credits</a>
 	</div>
 </footer>
