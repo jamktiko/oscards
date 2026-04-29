@@ -3,6 +3,8 @@
 	import type { Movie } from '$lib/tyypit';
 	import Poster from './Poster.svelte';
 	import { favorite } from '$lib/favorites.svelte';
+	import { modalVisible } from '$lib/modalStore';
+
 	let { elokuvaTunnus }: { elokuvaTunnus: string } = $props();
 	let movies: Movie[] = $state([]);
 	onMount(async () => {
@@ -23,7 +25,10 @@
 >
 	<button
 		class="material-symbols-outlined absolute top-3 right-3 cursor-pointer text-zinc-300 hover:text-yellow-400"
-		onclick={() => (favorite.fav = elokuvaTunnus)}
+		onclick={() => {
+			favorite.fav = elokuvaTunnus;
+			modalVisible.set(!$modalVisible);
+		}}
 	>
 		favorite
 	</button>

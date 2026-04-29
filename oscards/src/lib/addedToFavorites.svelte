@@ -6,13 +6,13 @@
 	onMount(() => {
 		const timer = setTimeout(() => {
 			modalVisible.set(false);
-		}, 3000);
+		}, 1000);
 		return () => clearTimeout(timer);
 	});
 </script>
 
 <div
-	style="position: fixed; top: 140px; right: 0px; color: yellow; background-color: rgba(0, 0, 0, 1); padding: 35px 50px 35px 30px; border-radius: 5px; z-index: 9999; font-size: 38px; white-space: nowrap;"
+	class="fixed top-20 right-0 rounded-2xl border-2 border-yellow-400 bg-zinc-900 p-10 text-yellow-400"
 	in:fly={{ x: 100 }}
 	out:fly={{ x: 100 }}
 >
