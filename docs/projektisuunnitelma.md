@@ -53,12 +53,15 @@ _Projektin tavoiteltuna lopputuloksena olisi saada elokuvakulttuurista maistiais
 
 _Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte itse päättää mikä taso on teidän projektillenne paras._
 
-| Tapahtuma        | Päivämäärä | Muut tiedot/osanottajat                  |
-| ---------------- | ---------- | ---------------------------------------- |
-| Projekti alkaa   | 20.04.2026 | Ohjelmistoprojekti 1 alkaa               |
-| Idean valinta    | 23.04.2026 | Valitaan tuotantoon menevä projekti-idea |
-| ............     | pvm        | Kaikki muut tapahtumat listattuna        |
-| Projekti päättyy | 16.05.2026 | Ohjelmistoprojekti 1 päättyy             |
+| Tapahtuma           | Päivämäärä | Muut tiedot/osanottajat                  |
+| ------------------- | ---------- | ---------------------------------------- |
+| Projekti alkaa      | 20.04.2026 | Ohjelmistoprojekti 1 alkaa               |
+| Idean valinta       | 22.04.2026 | Valitaan tuotantoon menevä projekti-idea |
+| Luonnostelu         | 23.04.2026 | Fontti ja värit, komponenttirakenne      |
+| Projektin aloittelu | 24.04.2026 | UI ja sveltepohja aluilleen              |
+| Tuotantoa           | 27.04.2026 | UI suunnitelma ja svelte jatkuu          |
+| Tuotanto jatkuu     | 28.04.2026 | UI/Prototyypit, Sveltekoodausta          |
+| Projekti päättyy    | 16.05.2026 | Ohjelmistoprojekti 1 päättyy             |
 
 ## Raportointi, kommunikointi ja dokumentointi
 

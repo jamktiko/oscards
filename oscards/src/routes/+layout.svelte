@@ -18,3 +18,9 @@
 	{@render children()}
 </main>
 <Footer />
+
+<style>
+	:global(html, body) {
+		background-color: #1c1b1f;
+	}
+</style>

@@ -1,17 +1,17 @@
 <script lang="ts">
-	  import CategoryButton from '../routes/categoryButton.svelte';
+	import CategoryButton from '../routes/categoryButton.svelte';
 </script>
 
-<div
-	class="inline-flex h-24 w-360 items-start justify-start gap-96 bg-zinc-900 pt-7 pr-14 pb-1.5 pl-137"
->
-	<div class="font-judson justify-start text-2xl font-bold text-zinc-300">
-		Copyright 2026 © OsCards co.
-	</div>
+<footer class="w-full py-6">
+	<div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
+		<div class="font-judson text-xl font-bold text-zinc-300 md:text-2xl">
+			Copyright 2026 © OsCards co.
+		</div>
 
-<CategoryButton
-  text="Credits"
-  onclick={() => console.log('Menit creditseihin')}
-  class="font-judson justify-start text-2xl font-bold text-zinc-300"
-/>	
-</div>
+		<CategoryButton
+			text="Credits"
+			onclick={() => console.log('clicked')}
+			class="font-judson justify-start text-2xl font-bold text-zinc-300"
+		/>
+	</div>
+</footer>
