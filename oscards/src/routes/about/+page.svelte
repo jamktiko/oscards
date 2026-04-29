@@ -3,6 +3,7 @@
 </script>
 
 <Header otsikko=" Oscards" />
+<div class="flex flex-row text-zinc-300 font-judson border-4 border-yellow-300 ml-10 mr-10 text-center justify-center">
 <div>
   <h1>Tekijät:</h1>
   <p> Tuomas Huhtala</p>
@@ -35,4 +36,5 @@
   <div> <a href="https://commons.wikimedia.org/wiki/File:Paul_Thomas_Anderson_-_BFI_Southbank.jpg" target="_blank" >Paul Thomas Anderson</a> </div>
   <div> <a href="https://commons.wikimedia.org/wiki/File:James_Cameron_(28003289954)_Cropped.png" target="_blank" >James Cameron</a> </div>
   <div><a href="https://commons.wikimedia.org/wiki/File:Jane_Campion_DNZM_(cropped).jpg" target="_blank" >Jane Campion</a> </div>
+</div>
 </div>
