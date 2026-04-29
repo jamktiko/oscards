@@ -33,9 +33,12 @@
 		favorite
 	</button>
 
-	<div class="flex w-full items-center justify-between">
-		<div class="h-auto rounded-lg border-2 border-yellow-400 object-cover">
-			<Poster {elokuvaTunnus} />
+	<div class="flex w-full h-auto items-center justify-between">
+		<div>
+			<Poster
+    {elokuvaTunnus}
+    class="w-56 h-80 rounded-lg border-2 border-yellow-400 object-cover"
+/>
 		</div>
 		<div class="flex flex-row items-center gap-1 pr-2">
 			{#each Array(movie?.oscarWins) as _}
