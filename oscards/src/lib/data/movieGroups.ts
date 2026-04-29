@@ -69,4 +69,4 @@ export const movieGroups = {
 		{ imdbId: 'tt0098725' }, // Sweetie
 		{ imdbId: 'tt0493101' } // 8
 	]
-} as const;
+};

@@ -1,16 +1,16 @@
 <script lang="ts">
+	import Carousel from '$lib/Carousel.svelte';
 	import { favorite } from '$lib/favorites.svelte';
 	import Header from '$lib/Header.svelte';
 	import Poster from '$lib/Poster.svelte';
 </script>
 
 <Header otsikko="Favorites" />
-<div>
-	{#each favorite.fav as fav (fav)}
-		<div class=" flex h-auto w-full max-w-sm flex-col justify-between p-4  md:w-96">
-		<Poster elokuvaTunnus={fav} />
+
+<Carousel kortit={favorite.fav}>
+	{#snippet children(setti)}
+		<div class="w-100">
+			<Poster elokuvaTunnus={setti} />
 		</div>
-		<button onclick={() => (favorite.unfav = fav)}>poista</button>
-	{/each}
-		
-</div>
+	{/snippet}
+</Carousel>

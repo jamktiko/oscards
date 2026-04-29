@@ -13,4 +13,4 @@ export const personGroups = {
 		{ name: 'James Cameron' },
 		{ name: 'Jane Campion' }
 	]
-} as const;
+};

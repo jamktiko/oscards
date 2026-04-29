@@ -8,7 +8,9 @@
 <svelte:head></svelte:head>
 
 <main>
-	{@render children()}
+	<div class="h-screen">
+		{@render children()}
+	</div>
 </main>
 
 <Footer />

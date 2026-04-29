@@ -21,7 +21,7 @@
 </script>
 
 <div
-	class="relative mx-auto h-172.5 w-full max-w-sm  gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)] "
+	class="relative mx-auto h-172.5 w-full max-w-sm gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
 >
 	<button
 		class="material-symbols-outlined absolute top-3 right-3 cursor-pointer text-zinc-300 hover:text-yellow-400"
@@ -33,12 +33,9 @@
 		favorite
 	</button>
 
-	<div class="flex w-full h-auto items-center justify-between">
-		<div>
-			<Poster
-    {elokuvaTunnus}
-    class="w-56 h-80 rounded-lg border-2 border-yellow-400 object-cover"
-/>
+	<div class="flex h-auto w-full items-center justify-between">
+		<div class="h-83 w-56 rounded-lg border-2 border-yellow-400 object-cover">
+			<Poster {elokuvaTunnus} />
 		</div>
 		<div class="flex flex-row items-center gap-1 pr-2">
 			{#each Array(movie?.oscarWins) as _}

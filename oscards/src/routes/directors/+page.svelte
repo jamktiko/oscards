@@ -6,6 +6,7 @@
 	import PersonCard from '$lib/PersonCard.svelte';
 	import { modalVisible } from '$lib/modalStore';
 	import AddedToFavorites from '$lib/addedToFavorites.svelte';
+	import Carousel from '$lib/Carousel.svelte';
 
 	let otsikko = $state('Directors');
 
@@ -29,32 +30,28 @@
 {#if $modalVisible}
 	<AddedToFavorites />
 {/if}
+
 <Header {otsikko} />
-<div>
-	<div>
-		{#if currentDirector === null}
-			<div>
-				{#each personGroups.directors as director}
-					<PersonCard
-						nimi={director.name}
-						onclick={() => {
-							currentDirector = director.name;
-							otsikko = `Top 5 Titles`;
-						}}
-					/>
-				{/each}
-			</div>
-		{:else}'<button
-				class="material-symbols-outlined scale-200 text-5xl text-yellow-400"
-				onclick={() => (currentDirector = null)}
-			>
-				arrow_back
-			</button>'
-			<div>
-				{#each movieCards as movie}
-					<MovieCard elokuvaTunnus={movie.imdbId} />
-				{/each}
-			</div>
-		{/if}
-	</div>
-</div>
+
+{#if currentDirector === null}
+	<Carousel kortit={personGroups.directors}>
+		{#snippet children(director, diff)}
+			<PersonCard
+				nimi={director.name}
+				onclick={diff === 0 ? () => (currentDirector = director.name) : undefined}
+			/>
+		{/snippet}
+	</Carousel>
+{:else}
+	<button
+		class="material-symbols-outlined scale-200 text-5xl text-yellow-400"
+		onclick={() => (currentDirector = null)}
+	>
+		arrow_back
+	</button>
+	<Carousel kortit={movieCards}>
+		{#snippet children(movie)}
+			<MovieCard elokuvaTunnus={movie.imdbId} />
+		{/snippet}
+	</Carousel>
+{/if}
