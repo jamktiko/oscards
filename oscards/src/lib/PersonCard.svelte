@@ -25,7 +25,7 @@
 		</div>
 
 		<div
-			class="font-judson mt-4 px-6 text-center font-sans text-2xl font-bold text-zinc-300 md:text-3xl"
+			class="font-judson mt-4 px-6 text-center text-2xl font-bold text-zinc-300 md:text-3xl"
 		>
 			{person?.name}
 		</div>
