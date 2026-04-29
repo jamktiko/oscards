@@ -21,7 +21,7 @@
 </script>
 
 <div
-	class="relative flex h-172.5 w-full max-w-sm flex-col justify-between gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)] md:w-96"
+	class="relative mx-auto h-172.5 w-full max-w-sm  gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)] "
 >
 	<button
 		class="material-symbols-outlined absolute top-3 right-3 cursor-pointer text-zinc-300 hover:text-yellow-400"
