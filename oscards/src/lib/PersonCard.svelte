@@ -24,23 +24,21 @@
 			<img src={kuva} alt="kuva" class="h-auto w-auto object-cover" />
 		</div>
 
-		<div class="mt-4 px-6 text-center font-['Lora'] text-2xl font-bold text-zinc-300 md:text-3xl">
+		<div
+			class="font-judson mt-4 px-6 text-center font-sans text-2xl font-bold text-zinc-300 md:text-3xl"
+		>
 			{person?.name}
 		</div>
-		<!-- INFO + OSCARS vierekkäin -->
+
 		<div class="mt-6 flex flex-col gap-6 px-6 md:flex-row md:items-start md:justify-between">
-			<!-- INFO -->
-			<div class="space-y-2 font-['Lora'] text-lg font-medium text-zinc-300 md:text-xl">
+			<div class="font-judson space-y-2 text-lg font-medium text-zinc-300 md:text-xl">
 				<div>Born: {person?.born}</div>
 				<div>Nationality: {person?.nationality}</div>
 				<div>Total movies: {person?.totalMovies}</div>
 				<div>Oscar nominations: {person?.oscarNominations}</div>
 			</div>
 
-			<!-- OSCARS -->
-			<div
-				class="flex items-center gap-3 font-['Lora'] text-lg font-medium text-zinc-300 md:text-xl"
-			>
+			<div class="font-judson flex items-center gap-3 text-lg font-medium text-zinc-300 md:text-xl">
 				<span>Oscars won:</span>
 				<img
 					src="/img/oscarPalkinto.png"
