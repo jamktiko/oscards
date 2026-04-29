@@ -1,4 +1,6 @@
 <script lang="ts">
+	import CategoryButton from '../routes/categoryButton.svelte';
+
 </script>
 
 <footer class="w-full py-6">
@@ -6,7 +8,8 @@
 		<div class="font-judson text-xl font-bold text-zinc-300 md:text-2xl">
 			Copyright 2026 © OsCards co.
 		</div>
-
-		<a href="/about">Credits</a>
+	
+		<!-- Väliaikaisesti categorybutton näön vuoksi -->
+<CategoryButton text="Credits" polku="/about" />
 	</div>
 </footer>
