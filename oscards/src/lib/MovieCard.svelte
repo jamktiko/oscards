@@ -18,29 +18,40 @@
 	}
 </script>
 
-<div>
+<div
+	class="relative flex h-172.5 w-full max-w-sm flex-col justify-between gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)] md:w-96"
+>
 	<button
-		class="material-symbols-outlined cursor-pointer"
-		onclick={() => (favorite.fav = elokuvaTunnus)}>favorite</button
+		class="material-symbols-outlined absolute top-3 right-3 cursor-pointer text-zinc-300 hover:text-yellow-400"
+		onclick={() => (favorite.fav = elokuvaTunnus)}
 	>
-	<button>
-		<Poster {elokuvaTunnus} />
-		<div>
-			{#each Array(movie?.oscarWins) as oscars}
-				<img src="/img/oscarPalkinto.png" alt="" class="h-5 w-5" />
+		favorite
+	</button>
+
+	<div class="flex w-full items-center justify-between">
+		<div class="h-auto rounded-lg border-2 border-yellow-400 object-cover">
+			<Poster {elokuvaTunnus} />
+		</div>
+		<div class="flex flex-row items-center gap-1 pr-2">
+			{#each Array(movie?.oscarWins) as _}
+				<img src="/img/oscarPalkinto.png" alt="" class="h-6 w-6" />
 			{/each}
 		</div>
-		<div>
-			<h2>{movie?.title}</h2>
-			<p>{movie?.year}</p>
-			<p>{runTime(movie?.length ?? 0)}</p>
-			<p>IMDb rating: {movie?.imdbRating}</p>
-			<h2>Streaming</h2>
-			<div>
-				{#each movie?.streaming as streamin}
-					<img src={streamin} alt="" class="h-5 w-5" />
-				{/each}
-			</div>
+	</div>
+
+	<div class="flex flex-col items-center font-['Lora'] text-zinc-300">
+		<h2 class="text-2xl font-bold">{movie?.title}</h2>
+		<p class="text-lg">Year: {movie?.year}</p>
+		<p class="text-lg">{runTime(movie?.length ?? 0)}</p>
+		<p class="text-lg">IMDb rating: {movie?.imdbRating}</p>
+	</div>
+
+	<div class="flex flex-col items-center gap-2">
+		<h2 class="font-['Lora'] text-2xl font-bold text-zinc-300">Streaming on:</h2>
+		<div class="flex gap-3">
+			{#each movie?.streaming as streamin}
+				<img src={streamin} alt="" class="h-6 w-6" />
+			{/each}
 		</div>
-	</button>
+	</div>
 </div>

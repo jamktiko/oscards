@@ -6,15 +6,12 @@
 	let { children } = $props();
 </script>
 
-<svelte:head
-	><link
-		href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap"
-		rel="stylesheet"
-	/></svelte:head
->
+<svelte:head></svelte:head>
+
 <main>
 	{@render children()}
 </main>
+
 <Footer />
 
 <style>
