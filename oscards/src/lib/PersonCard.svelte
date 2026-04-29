@@ -15,7 +15,7 @@
 </script>
 
 <div
-	class="relative mx-auto h-auto w-full max-w-sm overflow-hidden rounded-[10px] bg-zinc-900 pt-5 pb-10 shadow-[0_0_35px_rgba(0,0,0,0.55)] outline outline-yellow-400"
+	class="relative mx-auto h-auto w-full max-w-sm overflow-hidden rounded-lg border-2 border-yellow-400 bg-zinc-900 object-cover pt-5 pb-10 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
 >
 	<button class="h-full w-full text-left" {onclick}>
 		<div
