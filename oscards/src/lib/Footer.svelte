@@ -11,7 +11,7 @@
 
 <CategoryButton
   text="Credits"
-  onclick={() => console.log('clicked')}
+  onclick={() => console.log('Menit creditseihin')}
   class="font-judson justify-start text-2xl font-bold text-zinc-300"
 />	
 </div>
