@@ -5,5 +5,5 @@
 
 <Header otsikko=" Oscards" />
 
-<a href="/actors">Actors</a>
-<a href="/directors">Directors</a>
+<CategoryButton text="Actors/Actresses" polku="/actors" />
+<CategoryButton text="Directors" polku="/directors" />
