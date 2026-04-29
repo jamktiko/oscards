@@ -1,5 +1,4 @@
 <script lang="ts">
-	import CategoryButton from '../routes/categoryButton.svelte';
 </script>
 
 <footer class="w-full py-6">
@@ -8,10 +7,6 @@
 			Copyright 2026 © OsCards co.
 		</div>
 
-		<CategoryButton
-			text="Credits"
-			onclick={() => console.log('clicked')}
-			class="font-judson justify-start text-2xl font-bold text-zinc-300"
-		/>
+		<a href="/credits">Credits</a>
 	</div>
 </footer>
