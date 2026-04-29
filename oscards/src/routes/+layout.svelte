@@ -1,5 +1,4 @@
 <script lang="ts">
-	import './layout.css';
 	import '../app.css';
 	import Footer from '$lib/Footer.svelte';
 
