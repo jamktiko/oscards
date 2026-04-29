@@ -4,6 +4,8 @@
 	import Header from '$lib/Header.svelte';
 	import MovieCard from '$lib/MovieCard.svelte';
 	import PersonCard from '$lib/PersonCard.svelte';
+	import { modalVisible } from '$lib/modalStore';
+	import AddedToFavorites from '$lib/addedToFavorites.svelte';
 
 	let otsikko = $state('Directors');
 
@@ -24,6 +26,9 @@
 	});
 </script>
 
+{#if $modalVisible}
+	<AddedToFavorites />
+{/if}
 <Header {otsikko} />
 <div>
 	<div>
@@ -39,7 +44,12 @@
 					/>
 				{/each}
 			</div>
-		{:else}
+		{:else}'<button
+				class="material-symbols-outlined scale-200 text-5xl text-yellow-400"
+				onclick={() => (currentDirector = null)}
+			>
+				arrow_back
+			</button>'
 			<div>
 				{#each movieCards as movie}
 					<MovieCard elokuvaTunnus={movie.imdbId} />
