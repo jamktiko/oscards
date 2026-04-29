@@ -1,4 +1,5 @@
 <script lang="ts">
+	//korjattu
 	let { otsikko }: { otsikko?: string } = $props();
 </script>
 
