@@ -12,5 +12,9 @@
 		<div class="w-100">
 			<Poster elokuvaTunnus={setti} />
 		</div>
+		<button
+			class="m-1 self-center rounded-3xl border-2 border-yellow-400 p-4 text-yellow-400"
+			onclick={() => (favorite.unfav = setti)}>Remove</button
+		>
 	{/snippet}
 </Carousel>
