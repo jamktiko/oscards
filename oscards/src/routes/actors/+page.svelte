@@ -43,7 +43,7 @@
 	</Carousel>
 {:else}
 	<button
-		class="material-symbols-outlined scale-200 text-5xl text-yellow-400"
+		class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 hover:cursor-pointer"
 		onclick={() => (currentActor = null)}
 	>
 		arrow_back
