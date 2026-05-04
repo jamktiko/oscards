@@ -3,11 +3,11 @@
 	import { favorite } from '$lib/favorites.svelte';
 	import Header from '$lib/Header.svelte';
 	import Poster from '$lib/Poster.svelte';
-	import Modal from "$lib/Modal.svelte";
+	import Modal from '$lib/Modal.svelte';
 	import { onMount } from 'svelte';
 	import type { Movie } from '$lib/tyypit';
 
-	let showCard=$state(false);
+	let showCard = $state(false);
 	let selectedMovie = $state<string | null>(null);
 	let movies: Movie[] = $state([]);
 
@@ -25,13 +25,20 @@
 	}
 </script>
 
-<Header otsikko="Favorites" />
+<Header otsikko="favorites" />
 
 <Carousel kortit={favorite.fav} id="favorites">
 	{#snippet children(setti, diff)}
 		<div class="w-100">
-			<button onclick={diff === 0 ? () => {showCard = true; selectedMovie = setti} : undefined}> 
-			<Poster elokuvaTunnus={setti} />
+			<button
+				onclick={diff === 0
+					? () => {
+							showCard = true;
+							selectedMovie = setti;
+						}
+					: undefined}
+			>
+				<Poster elokuvaTunnus={setti} />
 			</button>
 		</div>
 
@@ -45,7 +52,12 @@
 {#if showCard}
 	<Modal>
 		{#snippet header()}
-			<button class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 hover:cursor-pointer" onclick={() => showCard = false}> arrow_back</button>
+			<button
+				class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 hover:cursor-pointer"
+				onclick={() => (showCard = false)}
+			>
+				arrow_back</button
+			>
 		{/snippet}
 
 		<div class="flex flex-row items-center gap-1 pr-2 font-judson text-2xl text-zinc-300">
@@ -53,20 +65,20 @@
 			x {movie?.oscarWins}
 		</div>
 
-	<div class="flex flex-col items-center font-judson text-zinc-300">
-		<h2 class="text-2xl font-bold">{movie?.title}</h2>
-		<p class="text-lg">Year: {movie?.year}</p>
-		<p class="text-lg">{runTime(movie?.length ?? 0)}</p>
-		<p class="text-lg">IMDb rating: {movie?.imdbRating}</p>
-	</div>
-
-	<div class="flex flex-col items-center gap-2">
-		<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
-		<div class="flex gap-3">
-			{#each movie?.streaming as streamin (streamin)}
-				<img src={streamin} alt="" class="h-6 w-6" />
-			{/each}
+		<div class="flex flex-col items-center font-judson text-zinc-300">
+			<h2 class="text-2xl font-bold">{movie?.title}</h2>
+			<p class="text-lg">Year: {movie?.year}</p>
+			<p class="text-lg">{runTime(movie?.length ?? 0)}</p>
+			<p class="text-lg">IMDb rating: {movie?.imdbRating}</p>
 		</div>
-	</div>
+
+		<div class="flex flex-col items-center gap-2">
+			<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
+			<div class="flex gap-3">
+				{#each movie?.streaming as streamin (streamin)}
+					<img src={streamin} alt="" class="h-6 w-6" />
+				{/each}
+			</div>
+		</div>
 	</Modal>
 {/if}

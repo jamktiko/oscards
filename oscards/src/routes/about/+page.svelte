@@ -9,7 +9,7 @@
 	}
 </script>
 
-<Header otsikko="Oscards" />
+<Header otsikko="credits" />
 <div class="mt-10 flex justify-center p-4 font-judson">
 	<!-- Kiinteä leveys desktopissa (max-w-md), joustava mobiilissa -->
 	<div
