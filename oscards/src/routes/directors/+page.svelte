@@ -34,7 +34,7 @@
 <Header {otsikko} />
 
 {#if currentDirector === null}
-	<Carousel kortit={personGroups.directors}>
+	<Carousel kortit={personGroups.directors} id="directors">
 		{#snippet children(director, diff)}
 			<PersonCard
 				nimi={director.name}
@@ -49,7 +49,7 @@
 	>
 		arrow_back
 	</button>
-	<Carousel kortit={movieCards}>
+	<Carousel kortit={movieCards} id={currentDirector}>
 		{#snippet children(movie)}
 			<MovieCard elokuvaTunnus={movie.imdbId} />
 		{/snippet}

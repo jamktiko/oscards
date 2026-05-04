@@ -1,4 +1,10 @@
 import { writable } from 'svelte/store';
-const carouselState = writable<number>(0);
 
-export default carouselState;
+const stores = new Map<string, ReturnType<typeof writable<number>>>();
+
+export function getCarouselStore(key: string) {
+	if (!stores.has(key)) {
+		stores.set(key, writable(0));
+	}
+	return stores.get(key)!;
+}
