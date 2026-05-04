@@ -1,20 +1,25 @@
 <script lang="ts">
 	import { onDestroy, type Snippet } from 'svelte';
-	import carouselState from '$lib/carouselStore';
+	import { getCarouselStore } from '$lib/carouselStore';
 
-	let { kortit, children }: { kortit: any[]; children: Snippet<[any, number]> } = $props();
+	type Kortti = { name: string } | { imdbId: string } | string;
+
+	let { kortit, children, id }: { kortit: Kortti[]; children: Snippet<[any, number]>; id: string } =
+		$props();
 
 	const cards = $derived(kortit);
 	let currentIndex: number = $state(0);
-	const unsub = carouselState.subscribe((x) => (currentIndex = x));
+
+	const store = getCarouselStore(id);
+	const unsub = store.subscribe((x) => (currentIndex = x));
 	function next() {
 		currentIndex = (currentIndex + 1) % cards.length;
-		carouselState.set(currentIndex);
+		store.set(currentIndex);
 	}
 
 	function prev() {
 		currentIndex = (currentIndex - 1 + cards.length) % cards.length;
-		carouselState.set(currentIndex);
+		store.set(currentIndex);
 	}
 	onDestroy(() => {
 		if (unsub) {
