@@ -20,7 +20,7 @@
 			<!-- Varmista, että on:click on juuri tässä muodossa -->
 			<button
 				type="button"
-				on:click={() => toggle('tekijat')}
+				onclick={() => toggle('tekijat')}
 				class="flex w-full flex-row justify-between py-2 text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Creators</div>
@@ -41,7 +41,7 @@
 		<div class="mb-4">
 			<button
 				type="button"
-				on:click={() => toggle('actors')}
+				onclick={() => toggle('actors')}
 				class="flex w-full flex-row justify-between py-2 font-judson text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Actors</div>
@@ -82,7 +82,7 @@
 		<div class="mb-4">
 			<button
 				type="button"
-				on:click={() => toggle('directors')}
+				onclick={() => toggle('directors')}
 				class="flex w-full flex-row justify-between py-2 font-judson text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Directors</div>
@@ -124,7 +124,7 @@
 		<div class="mb-4">
 			<button
 				type="button"
-				on:click={() => toggle('extra')}
+				onclick={() => toggle('extra')}
 				class="flex w-full flex-row justify-between py-2 font-judson text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Web Pages</div>
@@ -134,7 +134,7 @@
 			{#if avoinOsio === 'extra'}
 				<div class="bg-black-900 mt-2 flex flex-col space-y-2 rounded p-3">
 					<a
-						href="https://imdb-api.com"
+						href="https://imdb.iamidiotareyoutoo.com/"
 						target="_blank"
 						class="text-white transition hover:text-yellow-400 hover:underline">API</a
 					>
