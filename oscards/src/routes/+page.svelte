@@ -3,7 +3,9 @@
 	import Header from '$lib/Header.svelte';
 </script>
 
-<Header otsikko=" Oscards" />
+<Header otsikko="" />
 
-<CategoryButton text="Actors/Actresses" polku="/actors" />
-<CategoryButton text="Directors" polku="/directors" />
+<div class="mt-10 pt-10">
+	<CategoryButton text="Actors/Actresses" polku="/actors" />
+	<CategoryButton text="Directors" polku="/directors" />
+</div>
