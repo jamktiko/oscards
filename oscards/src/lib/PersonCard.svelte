@@ -28,20 +28,23 @@
 			{person?.name}
 		</div>
 
-		<div class="mt-6 flex flex-col gap-6 px-6 md:flex-row md:items-start md:justify-between">
-			<div class="space-y-2 font-judson text-lg font-medium text-zinc-300 md:text-xl">
-				<div>Born: {person?.born}</div>
-				<div>Nationality: {person?.nationality}</div>
+		<div class="mt-6 ml-4 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+			<div
+				class="font-sm md:text-md flex flex-col items-center space-y-2 font-judson text-lg text-zinc-300"
+			>
+				<div>B. {person?.born}</div>
+				<div>{person?.nationality}</div>
 				<div>Total movies: {person?.totalMovies}</div>
 				<div>Oscar nominations: {person?.oscarNominations}</div>
 			</div>
 
-			<div class="flex items-center gap-3 font-judson text-lg font-medium text-zinc-300 md:text-xl">
-				<span>Oscars won:</span>
+			<div
+				class="flex items-center pt-10 pr-10 font-judson text-lg font-medium text-zinc-300 md:text-xl"
+			>
 				<img
 					src="/img/oscarPalkinto.png"
 					alt="oscar"
-					class="h-10 w-auto drop-shadow-[0_0_15px_rgba(239,191,4,1)] md:h-12"
+					class="h-15 w-auto drop-shadow-[0_0_15px_rgba(239,191,4,1)] md:h-20"
 				/>
 			</div>
 		</div>
