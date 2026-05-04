@@ -2,7 +2,9 @@
 	import { onDestroy, type Snippet } from 'svelte';
 	import { getCarouselStore } from '$lib/carouselStore';
 
-	let { kortit, children, id }: { kortit: any[]; children: Snippet<[any, number]>; id: string } =
+	type Kortti = { name: string } | { imdbId: string } | string;
+
+	let { kortit, children, id }: { kortit: Kortti[]; children: Snippet<[any, number]>; id: string } =
 		$props();
 
 	const cards = $derived(kortit);

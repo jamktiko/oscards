@@ -7,7 +7,7 @@
 
 <Header otsikko="Favorites" />
 
-<Carousel kortit={favorite.fav}>
+<Carousel kortit={favorite.fav} id="favorites">
 	{#snippet children(setti)}
 		<div class="w-100">
 			<Poster elokuvaTunnus={setti} />
