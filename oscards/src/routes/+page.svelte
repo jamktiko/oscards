@@ -5,7 +5,7 @@
 
 <Header otsikko="oscards-logo" />
 
-<div class="mt-10 pt-10">
+<div class="mt-10 mb-10 pt-10 pb-10">
 	<CategoryButton text="Actors/Actresses" polku="/actors" />
 	<CategoryButton text="Directors" polku="/directors" />
 </div>
