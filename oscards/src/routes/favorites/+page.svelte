@@ -29,11 +29,10 @@
 
 <Carousel kortit={favorite.fav} id="favorites">
 	{#snippet children(setti, diff)}
-	<!-- svelte-ignore a11y_click_events_have_key_events -->
-	<!-- svelte-ignore a11y_no_static_element_interactions -->
-		<div class="w-100" 
-			onclick={diff === 0 ? () => {showCard = true; selectedMovie = setti} : undefined}> 
+		<div class="w-100">
+			<button onclick={diff === 0 ? () => {showCard = true; selectedMovie = setti} : undefined}> 
 			<Poster elokuvaTunnus={setti} />
+			</button>
 		</div>
 
 		<button
