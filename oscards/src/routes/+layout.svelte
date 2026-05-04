@@ -17,6 +17,9 @@
 
 <style>
 	:global(html, body) {
-		background-color: #1c1b1f;
+		background-image: url('/img/backgroundStage.png');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
 	}
 </style>
