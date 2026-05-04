@@ -8,7 +8,7 @@
 	import AddedToFavorites from '$lib/addedToFavorites.svelte';
 	import Carousel from '$lib/Carousel.svelte';
 
-	let otsikko = $state('Directors');
+	let otsikko = $state('directors');
 
 	let currentDirector = $state<string | null>(null);
 	const directorToMovieGroupKey: Record<string, keyof typeof movieGroups> = {
@@ -38,14 +38,22 @@
 		{#snippet children(director, diff)}
 			<PersonCard
 				nimi={director.name}
-				onclick={diff === 0 ? () => (currentDirector = director.name) : undefined}
+				onclick={diff === 0
+					? () => {
+							currentDirector = director.name;
+							otsikko = 'titles';
+						}
+					: undefined}
 			/>
 		{/snippet}
 	</Carousel>
 {:else}
 	<button
 		class="material-symbols-outlined scale-200 text-5xl text-yellow-400"
-		onclick={() => (currentDirector = null)}
+		onclick={() => {
+			currentDirector = null;
+			otsikko = 'directors';
+		}}
 	>
 		arrow_back
 	</button>
