@@ -43,7 +43,7 @@
 		</div>
 
 		<button
-			class="m-1 self-center rounded-3xl border-2 border-yellow-400 p-4 text-yellow-400"
+			class=" m-1 mt-4 self-center rounded-2xl border-2 border-yellow-400 px-4 py-2 font-judson text-xl font-bold text-yellow-400"
 			onclick={() => (favorite.unfav = setti)}>Remove</button
 		>
 	{/snippet}
@@ -76,7 +76,8 @@
 			<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
 			<div class="flex gap-3">
 				{#each movie?.streaming as streamin (streamin)}
-				<img src="/img/streamingApps/{streamin}.png" alt="" class="h-6 w-6" />				{/each}
+					<img src="/img/streamingApps/{streamin}.png" alt="" class="h-6 w-6" />
+				{/each}
 			</div>
 		</div>
 	</Modal>
