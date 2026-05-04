@@ -53,9 +53,9 @@
 
 	<div class="flex flex-col items-center gap-2">
 		<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
-		<div class="flex gap-3">
+		<div class=" flex flex-wrap gap-3">
 			{#each movie?.streaming as streamin (streamin)}
-				<img src="/img/streamingApps/{streamin}.png" alt="" class="h-6 w-6" />
+				<img src="/img/streamingApps/{streamin}.png" alt="" class="h-13 w-auto" />
 			{/each}
 		</div>
 	</div>
