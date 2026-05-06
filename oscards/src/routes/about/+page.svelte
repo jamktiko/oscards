@@ -57,12 +57,12 @@
 						>Matthew McConaughey</a
 					>
 					<a
-						href="https://commons.wikimedia.org/wiki/File:Emma_Stone_at_the_2024_New_York_Film_Festival_1_(cropped).jpg"
+						href="https://commons.wikimedia.org/w/index.php?search=emma+stone&title=Special%3AMediaSearch&type=image"
 						target="_blank"
 						class="text-white transition hover:text-yellow-400 hover:underline">Emma Stone</a
 					>
 					<a
-						href="https://commons.wikimedia.org/wiki/File:Leonardo_DiCaprio_2014.jpg"
+						href="https://commons.wikimedia.org/wiki/File:LeonardoDiCaprioNov08.jpg"
 						target="_blank"
 						class="text-white transition hover:text-yellow-400 hover:underline">Leonardo Dicaprio</a
 					>
