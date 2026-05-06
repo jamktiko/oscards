@@ -22,7 +22,7 @@
 </script>
 
 <div
-	class="relative mx-auto h-172.5 w-full max-w-sm gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
+	class="relative mx-auto h-172.5 w-full max-w-sm gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900/100 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
 >
 	<button
 		class="material-symbols-outlined absolute top-7 right-7 scale-175 cursor-pointer text-yellow-400 hover:text-yellow-400"
@@ -66,7 +66,7 @@
 		<div class=" flex flex-wrap gap-3">
 			{#each movie?.streaming as streamin (streamin)}
 				<a href={streamin.url}>
-					<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-13 w-auto" />
+					<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-12 w-auto" />
 				</a>
 			{/each}
 		</div>
