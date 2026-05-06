@@ -49,7 +49,7 @@ export const movieGroups = {
 		{ imdbId: 'tt0482571' } // The Prestige
 	],
 	paulThomasAnderson: [
-		{ imdbId: 'tt20215234' }, // One Battle After Another
+		{ imdbId: 'tt30144839' }, // One Battle After Another
 		{ imdbId: 'tt0118749' }, // Boogie Nights
 		{ imdbId: 'tt0175880' }, // Magnolia
 		{ imdbId: 'tt0469494' }, // There Will Be Blood

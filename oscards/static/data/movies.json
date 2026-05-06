@@ -7,7 +7,7 @@
 
   {"id":6,"title":"La La Land","year":2016,"length":128,"imdbRating":8.0,"oscarWins":6,"streaming":[{"app":"Netflix","url":"https://www.netflix.com/"},{"app":"PrimeVideo","url":"https://www.primevideo.com/"},{"app":"Viaplay","url":"https://viaplay.fi/"},{"app":"HBOMax","url":"https://www.max.com/"}],"imdbID":"tt3783958"},
   {"id":7,"title":"Poor Things","year":2023,"length":141,"imdbRating":8.0,"oscarWins":4,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"},{"app":"PrimeVideo","url":"https://www.primevideo.com/"}],"imdbID":"tt14230458"},
-  {"id":8,"title":"The Help","year":2011,"length":146,"imdbRating":8.1,"oscarWins":1,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"}],"imdbID":"tt1454029"},
+  {"id":8,"title":"Piiat","year":2011,"length":146,"imdbRating":8.1,"oscarWins":1,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"}],"imdbID":"tt1454029"},
   {"id":9,"title":"Easy A","year":2010,"length":92,"imdbRating":7.0,"oscarWins":0,"streaming":[],"imdbID":"tt1282140"},
   {"id":10,"title":"Bugonia","year":2024,"length":120,"imdbRating":6.5,"oscarWins":0,"streaming":[],"imdbID":"tt27491225"},
 
@@ -30,5 +30,24 @@
   {"id":27,"title":"Killers of the Flower Moon","year":2023,"length":206,"imdbRating":7.6,"oscarWins":0,"streaming":[{"app":"AppleTV","url":"https://tv.apple.com/"}],"imdbID":"tt5537002"},
   {"id":28,"title":"Goodfellas","year":1990,"length":146,"imdbRating":8.7,"oscarWins":1,"streaming":[{"app":"PrimeVideo","url":"https://www.primevideo.com/"}],"imdbID":"tt0099685"},
   {"id":29,"title":"Taxi Driver","year":1976,"length":114,"imdbRating":8.2,"oscarWins":0,"streaming":[],"imdbID":"tt0075314"},
-  {"id":30,"title":"Shutter Island","year":2010,"length":138,"imdbRating":8.2,"oscarWins":0,"streaming":[],"imdbID":"tt1130884"}
+  {"id":30,"title":"Shutter Island","year":2010,"length":138,"imdbRating":8.2,"oscarWins":0,"streaming":[],"imdbID":"tt1130884"},
+
+  {"id":35,"title":"The Prestige","year":2006,"length":130,"imdbRating":8.5,"oscarWins":0,"streaming":[],"imdbID":"tt0482571"},
+
+  {"id":36,"title":"One Battle After Another","year":2025,"length":161,"imdbRating":7.7,"oscarWins":6,"streaming":[{"app":"HBOMax","url":"https://www.max.com/"}],"imdbID":"tt30144839"},
+  {"id":37,"title":"Boogie Nights","year":1997,"length":155,"imdbRating":7.9,"oscarWins":0,"streaming":[],"imdbID":"tt0118749"},
+  {"id":38,"title":"Magnolia","year":1999,"length":188,"imdbRating":8.0,"oscarWins":0,"streaming":[],"imdbID":"tt0175880"},
+  {"id":39,"title":"There Will Be Blood","year":2007,"length":158,"imdbRating":8.2,"oscarWins":2,"streaming":[],"imdbID":"tt0469494"},
+  {"id":40,"title":"Hard Eight","year":1996,"length":101,"imdbRating":7.2,"oscarWins":0,"streaming":[],"imdbID":"tt0119256"},
+
+  {"id":42,"title":"Avatar","year":2009,"length":162,"imdbRating":7.9,"oscarWins":3,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"}],"imdbID":"tt0499549"},
+  {"id":43,"title":"The Terminator","year":1984,"length":107,"imdbRating":8.1,"oscarWins":0,"streaming":[{"app":"PrimeVideo","url":"https://www.primevideo.com/"}],"imdbID":"tt0088247"},
+  {"id":44,"title":"Aliens","year":1986,"length":137,"imdbRating":8.4,"oscarWins":2,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"},{"app":"HBOMax","url":"https://www.max.com/"}],"imdbID":"tt0090605"},
+  {"id":45,"title":"Avatar: The Way of Water","year":2022,"length":192,"imdbRating":7.6,"oscarWins":1,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"}],"imdbID":"tt1630029"},
+
+  {"id":46,"title":"The Piano","year":1993,"length":121,"imdbRating":7.5,"oscarWins":3,"streaming":[],"imdbID":"tt0107822"},
+  {"id":47,"title":"The Power of the Dog","year":2021,"length":126,"imdbRating":6.8,"oscarWins":1,"streaming":[{"app":"Netflix","url":"https://www.netflix.com/"}],"imdbID":"tt10293406"},
+  {"id":48,"title":"Bright Star","year":2009,"length":119,"imdbRating":6.9,"oscarWins":0,"streaming":[],"imdbID":"tt0810784"},
+  {"id":49,"title":"Sweetie","year":1989,"length":97,"imdbRating":6.7,"oscarWins":0,"streaming":[],"imdbID":"tt0098725"},
+  {"id":50,"title":"8","year":2008,"length":100,"imdbRating":5.8,"oscarWins":0,"streaming":[],"imdbID":"tt0493101"}
 ]
