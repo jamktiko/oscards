@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onDestroy, type Snippet } from 'svelte';
 	import { getCarouselStore } from '$lib/carouselStore';
+	import { fly } from 'svelte/transition';
 
 	type Kortti = { name: string } | { imdbId: string } | string;
 
@@ -44,7 +45,7 @@
 </script>
 
 <div class="flex w-full justify-center py-10">
-	<div class="relative flex w-full max-w-[800px] justify-center">
+	<div class="relative flex w-full max-w-[800px] justify-center" in:fly={{ y: -400 }}>
 		{#each cards as setti, i (setti)}
 			{@const diff = getDiff(i)}
 
