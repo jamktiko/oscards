@@ -2,6 +2,9 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { modalVisible } from './modalStore';
+	import { favoriteMessage } from './favoriteMessageStore';
+
+	let favorites = $favoriteMessage;
 
 	onMount(() => {
 		const timer = setTimeout(() => {
@@ -16,5 +19,5 @@
 	in:fly={{ x: 100 }}
 	out:fly={{ x: 100 }}
 >
-	Added to favorites
+	{favorites}
 </div>
