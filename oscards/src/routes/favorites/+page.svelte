@@ -43,7 +43,7 @@
 		</div>
 
 		<button
-			class=" bg-opacity-75 m-1 mt-4 self-center rounded-2xl border-2 border-yellow-400 bg-zinc-900/55 px-4 py-2 font-judson text-xl font-bold text-yellow-400 shadow-2xl transition-transform hover:scale-105"
+			class="m-1 mt-4 self-center rounded-2xl border-2 border-yellow-400 bg-zinc-900/55 px-4 py-2 font-judson text-xl font-bold text-yellow-400 shadow-2xl transition-transform hover:scale-105"
 			onclick={() => (favorite.unfav = setti)}>Remove</button
 		>
 	{/snippet}
