@@ -34,8 +34,9 @@
         }
         favoriteMessage.set(
             favorite.fav.includes(elokuvaTunnus)
-                ? 'Removed from favorites'
-                : 'Added to favorites'
+								? 'Added to favorites'
+                : 'Removed from favorites'
+                
         );
         modalVisible.set(!$modalVisible);
     }}
