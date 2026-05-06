@@ -24,13 +24,10 @@
 <div
 	class="relative mx-auto h-172.5 w-full max-w-sm gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
 >
-	<button
-		class="material-symbols-outlined absolute top-7 right-7 scale-175 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_{favorite.fav.includes(
-			elokuvaTunnus
-		)
-			? 1
-			: 0}] hover:text-yellow-400"
-		onclick={() => {
+<button
+    class="material-symbols-outlined absolute top-7 right-7 scale-175 cursor-pointer text-yellow-400 hover:text-yellow-400"
+    style:font-variation-settings="'FILL' {favorite.fav.includes(elokuvaTunnus) ? 1 : 0}"
+    onclick={() => {
 			if (favorite.fav.includes(elokuvaTunnus)) {
 				favorite.unfav = elokuvaTunnus;
 			} else {
