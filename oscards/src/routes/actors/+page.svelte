@@ -30,7 +30,14 @@
 {#if $modalVisible}
 	<AddedToFavorites />
 {/if}
-<Header {otsikko} />
+<Header
+	{otsikko}
+	ehto={currentActor !== null}
+	onclick={() => {
+		currentActor = null;
+		otsikko = 'actors';
+	}}
+/>
 
 {#if currentActor === null}
 	<Carousel kortit={personGroups.actors} id="actors">
@@ -47,15 +54,6 @@
 		{/snippet}
 	</Carousel>
 {:else}
-	<button
-		class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 hover:cursor-pointer"
-		onclick={() => {
-			currentActor = null;
-			otsikko = 'actors';
-		}}
-	>
-		arrow_back_ios
-	</button>
 	<div>
 		<Carousel kortit={movieCards} id={currentActor}>
 			{#snippet children(movie)}

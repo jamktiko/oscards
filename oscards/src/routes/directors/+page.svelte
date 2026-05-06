@@ -31,7 +31,14 @@
 	<AddedToFavorites />
 {/if}
 
-<Header {otsikko} />
+<Header
+	{otsikko}
+	ehto={currentDirector !== null}
+	onclick={() => {
+		currentDirector = null;
+		otsikko = 'directors';
+	}}
+/>
 
 {#if currentDirector === null}
 	<Carousel kortit={personGroups.directors} id="directors">
@@ -48,15 +55,6 @@
 		{/snippet}
 	</Carousel>
 {:else}
-	<button
-		class="material-symbols-outlined scale-200 text-5xl text-yellow-400"
-		onclick={() => {
-			currentDirector = null;
-			otsikko = 'directors';
-		}}
-	>
-		arrow_back_ios
-	</button>
 	<Carousel kortit={movieCards} id={currentDirector}>
 		{#snippet children(movie)}
 			<MovieCard elokuvaTunnus={movie.imdbId} />
