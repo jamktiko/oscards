@@ -28,8 +28,8 @@
 		class="material-symbols-outlined absolute top-7 right-7 scale-175 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_{favorite.fav.includes(
 			elokuvaTunnus
 		)
-			? 0
-			: 1}] hover:text-yellow-400"
+			? 1
+			: 0}] hover:text-yellow-400"
 		onclick={() => {
 			if (favorite.fav.includes(elokuvaTunnus)) {
 				favorite.unfav = elokuvaTunnus;
