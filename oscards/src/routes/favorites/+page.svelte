@@ -27,6 +27,11 @@
 
 <Header otsikko="favorites" />
 
+{#if favorite.fav.length === 0}
+	<div class="flex h-screen items-center justify-center">
+        <p class="text-2xl font-bold text-yellow-400">No favorites yet</p>
+    </div>
+{:else}
 <Carousel kortit={favorite.fav} id="favorites">
 	{#snippet children(setti, diff)}
 		<div class="w-100">
@@ -48,7 +53,7 @@
 		>
 	{/snippet}
 </Carousel>
-
+{/if}
 {#if showCard}
 	<Modal>
 		{#snippet header()}
@@ -56,8 +61,7 @@
 				class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 hover:cursor-pointer"
 				onclick={() => (showCard = false)}
 			>
-				arrow_back_ios</button
-			>
+				arrow_back_ios</button>
 		{/snippet}
 
 		<div class="flex flex-row items-center gap-1 pr-2 font-judson text-2xl text-zinc-300">
@@ -76,7 +80,7 @@
 			<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
 			<div class="flex gap-3">
 				{#each movie?.streaming as streamin (streamin)}
-					<img src="/img/streamingApps/{streamin}.png" alt="" class="h-6 w-6" />
+					<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-6 w-6" />
 				{/each}
 			</div>
 		</div>
