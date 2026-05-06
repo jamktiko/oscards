@@ -61,6 +61,8 @@ _Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte
 | Projektin aloittelu | 24.04.2026 | UI ja sveltepohja aluilleen              |
 | Tuotantoa           | 27.04.2026 | UI suunnitelma ja svelte jatkuu          |
 | Tuotanto jatkuu     | 28.04.2026 | UI/Prototyypit, Sveltekoodausta          |
+| Tuotanto jatkuu     | 04.05.2026 | Sveltekoodausta, tyylittelyä             |
+| Tuotanto jatkuu     | 06.05.2026 | Sveltekoodausta, tyylittelyä             |
 | Projekti päättyy    | 16.05.2026 | Ohjelmistoprojekti 1 päättyy             |
 
 ## Raportointi, kommunikointi ja dokumentointi
@@ -83,11 +85,9 @@ _Projektin jäsenet ovat paikalla ja läsnä työskennellessä. Tämän lisäksi
 
 ### Dokumentointi
 
-_Etenemisvaiheessa otetaan kuvia ja mahdollisesti kirjoitetaan kehitysvaiheista kriittistä tietoa talteen. Myös viikkoraportit ovat tärkeitä._
+_Viikkoraportit tärkeitä sekä tarvittaessa kuvat, joita jakaa teamsissa._
 
 ### Dokumenttien hallinta
-
-_Dokumentit sisältävät versionumerot_
 
 ## Riskien hallinta
 
@@ -95,8 +95,8 @@ _Kuvaa tässä kuinka projekti aikoo hallinnoida ja seurata projektiriskejä._
 
 Esimerkiksi näin.
 
-| Riskit                                                                     | Todennäköisyys | Impakti     | Minimointi                                   |
-| -------------------------------------------------------------------------- | -------------- | ----------- | -------------------------------------------- |
-| Työntekijät eivät ole motivoituneita ja eivät saavu paikalle               | Pieni          | Suuri       | Pidetään työpaikalla kahvia ja pullaa.       |
-| Joku ei ymmärrä jotain asiaa itse                                          | Suht pieni     | Suuri       | Kysyy missä kohtaan tahansa muun tiimin apua |
-| Alkaa uuvuttaa ja istuminen sattuu, jonka vuoksi keskittyminenkin hankalaa | Suuri          | Kohtalainen | Pidetään riittävästi niitä taukoja!          |
+| Riskit                                                                     | Todennäköisyys | Impakti     | Minimointi                                    |
+| -------------------------------------------------------------------------- | -------------- | ----------- | --------------------------------------------- |
+| Työntekijät eivät ole motivoituneita ja eivät saavu paikalle               | Pieni          | Suuri       | Pidetään työpaikalla kahvia ja pullaa.        |
+| Joku ei ymmärrä jotain asiaa itse                                          | Kohtalainen    | Suuri       | Kysyy missä kohtaan tahansa muun tiimin apua. |
+| Alkaa uuvuttaa ja istuminen sattuu, jonka vuoksi keskittyminenkin hankalaa | Suuri          | Kohtalainen | Pidetään riittävästi niitä taukoja!           |
