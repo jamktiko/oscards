@@ -1,3 +1,7 @@
+type Striimi = {
+	app: string;
+	url: string;
+};
 export type Movie = {
 	id: number;
 	title: string;
@@ -5,7 +9,7 @@ export type Movie = {
 	length: number; // minutes
 	imdbRating: number;
 	oscarWins: number;
-	streaming: string[];
+	streaming: Striimi[];
 	imdbID: string;
 };
 export type Person = {
