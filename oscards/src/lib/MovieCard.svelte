@@ -25,7 +25,7 @@
 	class="relative mx-auto h-172.5 w-full max-w-sm gap-4 rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
 >
 	<button
-		class="material-symbols-outlined absolute top-7 right-7 scale-175 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_{favorite.fav.includes(
+		class="material-symbols-outlined absolute top-7 right-12 scale-175 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_{favorite.fav.includes(
 			elokuvaTunnus
 		)
 			? 1
@@ -49,20 +49,22 @@
 		<div class="h-83 w-56 rounded-lg border-2 border-yellow-400 object-cover">
 			<Poster {elokuvaTunnus} />
 		</div>
-		<div class="flex flex-row items-center gap-1 pr-2 font-judson text-2xl text-zinc-300">
-			<img src="/img/oscarPalkinto.png" alt="" class="h-6 w-6" />
+		<div class=" ml-4 flex flex-row gap-1 pr-2 font-judson text-3xl text-zinc-300">
+			<img src="/img/oscarPalkinto.png" alt="" class=" h-12 w-12" />
 			x {movie?.oscarWins}
 		</div>
 	</div>
 
 	<div class="flex flex-col items-center font-judson text-zinc-300">
-		<h2 class="text-2xl font-bold">{movie?.title}</h2>
-		<p class="text-lg">Year: {movie?.year}</p>
-		<p class="text-lg">{runTime(movie?.length ?? 0)}</p>
-		<p class="text-lg">IMDb rating: {movie?.imdbRating}</p>
+		<h2 class="mt-5 text-2xl font-bold">{movie?.title}</h2>
+		<div class="mt-5 flex flex-col gap-1">
+			<p class="text-lg">Year: {movie?.year}</p>
+			<p class="text-lg">{runTime(movie?.length ?? 0)}</p>
+			<p class="text-lg">IMDb rating: {movie?.imdbRating}</p>
+		</div>
 	</div>
 
-	<div class="flex flex-col items-center gap-2">
+	<div class="mt-5 flex flex-col items-center gap-2">
 		<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
 		<div class=" flex flex-wrap gap-3">
 			{#each movie?.streaming as streamin (streamin)}
