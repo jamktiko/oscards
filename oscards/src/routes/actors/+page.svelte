@@ -54,7 +54,7 @@
 			otsikko = 'actors';
 		}}
 	>
-		arrow_back
+		arrow_back_ios
 	</button>
 	<div>
 		<Carousel kortit={movieCards} id={currentActor}>

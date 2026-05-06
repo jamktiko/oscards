@@ -56,7 +56,7 @@
 				class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 hover:cursor-pointer"
 				onclick={() => (showCard = false)}
 			>
-				arrow_back</button
+				arrow_back_ios</button
 			>
 		{/snippet}
 

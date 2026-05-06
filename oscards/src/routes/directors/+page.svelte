@@ -55,7 +55,7 @@
 			otsikko = 'directors';
 		}}
 	>
-		arrow_back
+		arrow_back_ios
 	</button>
 	<Carousel kortit={movieCards} id={currentDirector}>
 		{#snippet children(movie)}
