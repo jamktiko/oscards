@@ -7,7 +7,7 @@
 		<!-- Left icon -->
 		<a href="/" class="flex h-14 w-14 items-center justify-center">
 			<span
-				class="material-symbols-outlined scale-250 text-5xl text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)]"
+				class="material-symbols-outlined scale-250 text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300"
 			>
 				home
 			</span>
@@ -17,7 +17,7 @@
 
 		<a href="/favorites" class="flex h-14 w-14 items-center justify-center">
 			<span
-				class="material-symbols-outlined scale-250 text-5xl text-yellow-400 drop-shadow-[0_4px_3px_rgba(0,0,0,1)]"
+				class="material-symbols-outlined scale-250 text-yellow-400 drop-shadow-[0_4px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300"
 			>
 				favorite
 			</span>

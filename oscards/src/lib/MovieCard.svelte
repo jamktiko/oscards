@@ -25,7 +25,7 @@
 >
 	{#if favorite.fav.includes(elokuvaTunnus)}
 		<button
-			class="material-symbols-outlined absolute top-3 right-3 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_1]"
+			class="material-symbols-outlined absolute top-7 right-7 scale-175 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_1]"
 			onclick={() => {
 				favorite.unfav = elokuvaTunnus;
 				modalVisible.set(!$modalVisible);
@@ -35,7 +35,7 @@
 		</button>
 	{:else}
 		<button
-			class="material-symbols-outlined absolute top-3 right-3 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_0] hover:text-yellow-400"
+			class="material-symbols-outlined absolute top-7 right-7 scale-175 cursor-pointer text-yellow-400 [font-variation-settings:'FILL'_0] hover:text-yellow-400"
 			onclick={() => {
 				favorite.fav = elokuvaTunnus;
 				modalVisible.set(!$modalVisible);
