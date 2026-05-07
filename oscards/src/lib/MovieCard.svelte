@@ -43,12 +43,10 @@
 	</button>
 	<div class="mr-5 flex flex-row justify-between">
 		<div class="flex w-full justify-start">
-			<div class="h-65 w-45 overflow-hidden rounded-[10px] border-2 border-yellow-400">
-				<Poster
-					{elokuvaTunnus}
-					class="h-65 w-45 overflow-hidden rounded-[10px] border-2 border-yellow-400"
-				/>
-			</div>
+			<Poster
+				{elokuvaTunnus}
+				class="h-65 w-45 overflow-hidden rounded-[10px] border-2 border-yellow-400"
+			/>
 		</div>
 
 		<div class="mt-1 flex flex-col items-center justify-center gap-2">
