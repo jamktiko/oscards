@@ -87,7 +87,6 @@
 						<a href={streamin.url}>
 							<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-12 w-auto" />
 						</a>
-						<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-12 w-auto" />
 					{/each}
 				</div>
 			</div>
