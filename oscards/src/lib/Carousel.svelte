@@ -40,7 +40,7 @@
 		if (diff > len / 2) diff -= len;
 		if (diff < -len / 2) diff += len;
 
-		return diff;
+		return Math.max(-2, Math.min(2, diff));
 	}
 
 	function handleClick(diff: number) {

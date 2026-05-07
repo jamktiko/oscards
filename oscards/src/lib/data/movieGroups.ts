@@ -24,7 +24,7 @@ export const movieGroups = {
 		{ imdbId: 'tt0790636' }, // Dallas Buyers Club
 		{ imdbId: 'tt0816692' }, // Interstellar
 		{ imdbId: 'tt1935179' }, // Mud
-		{ imdbId: 'tt0816692' }, // Interstellar (duplicate alkuperäisestä datasta)
+		{ imdbId: 'tt21103218' }, // The Lost Bus
 		{ imdbId: 'tt0117913' } // A Time to Kill
 	],
 	cillianMurphy: [

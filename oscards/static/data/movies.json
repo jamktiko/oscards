@@ -49,5 +49,6 @@
   {"id":47,"title":"The Power of the Dog","year":2021,"length":126,"imdbRating":6.8,"oscarWins":1,"streaming":[{"app":"Netflix","url":"https://www.netflix.com/"}],"imdbID":"tt10293406"},
   {"id":48,"title":"Bright Star","year":2009,"length":119,"imdbRating":6.9,"oscarWins":0,"streaming":[],"imdbID":"tt0810784"},
   {"id":49,"title":"Sweetie","year":1989,"length":97,"imdbRating":6.7,"oscarWins":0,"streaming":[],"imdbID":"tt0098725"},
-  {"id":50,"title":"8","year":2008,"length":100,"imdbRating":5.8,"oscarWins":0,"streaming":[],"imdbID":"tt0493101"}
+  {"id":50,"title":"8","year":2008,"length":100,"imdbRating":5.8,"oscarWins":0,"streaming":[],"imdbID":"tt0493101"},
+  {"id":51,"title":"The Lost Bus","year":2025,"length":130,"imdbRating":6.8,"oscarWins":0,"streaming":[{"app": "AppleTV", "url": "https://tv.apple.com/"}],"imdbID":"tt21103218"}
 ]
