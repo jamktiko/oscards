@@ -82,6 +82,9 @@
 				<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
 				<div class="flex gap-3">
 					{#each movie?.streaming as streamin (streamin)}
+						<a href={streamin.url}>
+							<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-12 w-auto" />
+						</a>
 						<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-12 w-auto" />
 					{/each}
 				</div>
