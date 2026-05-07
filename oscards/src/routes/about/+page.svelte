@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Header from '$lib/Header.svelte';
-
-	// Svelte 5 tapa (jos käytössäsi on uusin versio)
+	import { slide } from 'svelte/transition';
 	let avoinOsio = $state('');
 
 	function toggle(nimi: string) {
@@ -11,24 +10,30 @@
 
 <Header otsikko="credits" />
 <div class="mt-10 flex justify-center p-4 font-judson">
-	<!-- Kiinteä leveys desktopissa (max-w-md), joustava mobiilissa -->
 	<div
 		class="bg-black-900 w-full max-w-md rounded-lg border-4 border-yellow-400 p-6 text-center text-white shadow-2xl"
 	>
-		<!-- OSASYSTEEMI: Tekijät -->
 		<div class="mb-4">
-			<!-- Varmista, että on:click on juuri tässä muodossa -->
 			<button
 				type="button"
 				onclick={() => toggle('tekijat')}
 				class="flex w-full flex-row justify-between py-2 text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Creators</div>
-				<span class="material-symbols-outlined"> keyboard_arrow_down </span>
+				<span
+					class="material-symbols-outlined transition-transform duration-100"
+					class:rotate-180={avoinOsio === 'tekijat'}
+				>
+					keyboard_arrow_down
+				</span>
 			</button>
 
 			{#if avoinOsio === 'tekijat'}
-				<div class="bg-black-900 mt-2 space-y-1 rounded p-3">
+				<div
+					in:slide={{ duration: 250 }}
+					out:slide={{ duration: 200 }}
+					class="bg-black-900 mt-2 space-y-1 rounded p-3"
+				>
 					<p>Tuomas Huhtala</p>
 					<p>Joel Hänninen</p>
 					<p>Nathalie Penttinen</p>
@@ -37,7 +42,6 @@
 			{/if}
 		</div>
 
-		<!-- OSASYSTEEMI: Näyttelijät -->
 		<div class="mb-4">
 			<button
 				type="button"
@@ -45,11 +49,20 @@
 				class="flex w-full flex-row justify-between py-2 font-judson text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Actors</div>
-				<span class="material-symbols-outlined"> keyboard_arrow_down </span>
+				<span
+					class="material-symbols-outlined transition-transform duration-100"
+					class:rotate-180={avoinOsio === 'actors'}
+				>
+					keyboard_arrow_down
+				</span>
 			</button>
 
 			{#if avoinOsio === 'actors'}
-				<div class="bg-black-900 mt-2 flex flex-col space-y-1 rounded p-3">
+				<div
+					in:slide={{ duration: 250 }}
+					out:slide={{ duration: 200 }}
+					class="bg-black-900 mt-2 flex flex-col space-y-1 rounded p-3"
+				>
 					<a
 						href="https://commons.wikimedia.org/wiki/File:Matthew_McConaughey_2019_(48648344772).jpg"
 						target="_blank"
@@ -86,11 +99,20 @@
 				class="flex w-full flex-row justify-between py-2 font-judson text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Directors</div>
-				<span class="material-symbols-outlined"> keyboard_arrow_down </span>
+				<span
+					class="material-symbols-outlined transition-transform duration-100"
+					class:rotate-180={avoinOsio === 'directors'}
+				>
+					keyboard_arrow_down
+				</span>
 			</button>
 
 			{#if avoinOsio === 'directors'}
-				<div class="bg-black-900 mt-2 flex flex-col space-y-1 rounded p-3">
+				<div
+					in:slide={{ duration: 250 }}
+					out:slide={{ duration: 200 }}
+					class="bg-black-900 mt-2 flex flex-col space-y-1 rounded p-3"
+				>
 					<a
 						href="https://commons.wikimedia.org/wiki/File:Martin_Scorsese-68749.jpg"
 						target="_blank"
@@ -120,7 +142,7 @@
 				</div>
 			{/if}
 		</div>
-		<!-- OSASYSTEEMI: Extra -->
+
 		<div class="mb-4">
 			<button
 				type="button"
@@ -128,11 +150,20 @@
 				class="flex w-full flex-row justify-between py-2 font-judson text-xl font-bold transition hover:text-yellow-400 focus:outline-none"
 			>
 				<div>Web Pages</div>
-				<span class="material-symbols-outlined"> keyboard_arrow_down </span>
+				<span
+					class="material-symbols-outlined transition-transform duration-100"
+					class:rotate-180={avoinOsio === 'extra'}
+				>
+					keyboard_arrow_down
+				</span>
 			</button>
 
 			{#if avoinOsio === 'extra'}
-				<div class="bg-black-900 mt-2 flex flex-col space-y-2 rounded p-3">
+				<div
+					in:slide={{ duration: 250 }}
+					out:slide={{ duration: 200 }}
+					class="bg-black-900 mt-2 flex flex-col space-y-2 rounded p-3"
+				>
 					<a
 						href="https://imdb.iamidiotareyoutoo.com/"
 						target="_blank"
