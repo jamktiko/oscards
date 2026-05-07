@@ -46,7 +46,7 @@
 		<div class="h-83 w-56 rounded-lg border-2 border-yellow-400 object-cover">
 			<Poster {elokuvaTunnus} />
 		</div>
-		<div class=" ml-4 flex flex-row gap-1 pr-2 font-judson text-3xl text-zinc-300">
+		<div class=" ml-4 flex flex-row gap-1 pr-1 font-judson text-3xl text-zinc-300">
 			<img src="/img/oscarPalkinto.png" alt="" class=" h-12 w-12" />
 			x {movie?.oscarWins}
 		</div>
