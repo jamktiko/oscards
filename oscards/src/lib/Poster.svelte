@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	let { elokuvaTunnus }: { elokuvaTunnus: string } = $props();
+	let { elokuvaTunnus, class: className = '' } = $props();
 	let poster = $state('');
 
 	onMount(async () => {
@@ -12,4 +12,4 @@
 	});
 </script>
 
-<img src={poster} alt="Ladataan..." class="h-65 w-45 rounded-[10px]" />
+<img src={poster} alt="Poster" class={`rounded-[10px] object-cover ${className || 'h-135 w-80'}`} />

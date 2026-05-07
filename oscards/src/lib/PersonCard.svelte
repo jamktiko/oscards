@@ -29,9 +29,7 @@
 		</div>
 
 		<div class="mt-6 ml-5 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
-			<div
-				class="font-sm md:text-md flex flex-col items-center space-y-2 font-judson text-lg text-zinc-300"
-			>
+			<div class="font-sm md:text-md flex flex-col items-center font-judson text-lg text-zinc-300">
 				<div>B. {person?.born}</div>
 				<div>{person?.nationality}</div>
 				<div>Total movies: {person?.totalMovies}</div>
@@ -39,7 +37,7 @@
 			</div>
 
 			<div
-				class="flex items-center pt-10 pr-10 font-judson text-lg font-medium text-zinc-300 md:text-xl"
+				class="flex items-center justify-center font-judson text-lg font-medium text-zinc-300 md:pt-10 md:pr-10 md:text-xl"
 			>
 				<img
 					src="/img/oscarPalkinto.png"
