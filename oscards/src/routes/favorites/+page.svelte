@@ -83,6 +83,11 @@
 			<div class="flex flex-col items-center gap-2">
 				<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
 				<div class="flex gap-3">
+						{#if movie?.streaming.length ===0}
+		<div class="mt-5 flex flex-col gap-1">
+			<p class="text-lg">Not available</p>
+		</div>
+		{/if}
 					{#each movie?.streaming as streamin (streamin)}
 						<a href={streamin.url}>
 							<img src="/img/streamingApps/{streamin.app}.png" alt="" class="h-12 w-auto" />
