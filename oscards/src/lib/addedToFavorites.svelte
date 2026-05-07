@@ -15,7 +15,7 @@
 </script>
 
 <div
-	class="fixed top-20 right-0 z-10 mt-5 mr-5 rounded-2xl border-2 border-yellow-400 bg-zinc-900 p-10 py-2 text-xl font-bold text-yellow-400"
+	class="fixed top-20 right-0 z-10 mt-5 mr-5 rounded-2xl border-2 border-yellow-400 bg-zinc-900/75 p-10 py-2 text-xl font-bold text-yellow-400"
 	in:fly={{ x: 100 }}
 	out:fly={{ x: 100 }}
 >
