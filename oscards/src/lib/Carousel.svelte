@@ -44,8 +44,18 @@
 	}
 </script>
 
-<div class="flex w-full justify-center py-10">
-	<div class="relative flex w-full max-w-[800px] justify-center" in:fly={{ y: -400 }}>
+<div class="snap-x snap-mandatory overflow-x-auto md:hidden">
+	<div class="flex">
+		{#each cards as setti, i (i)}
+			<div class="flex min-w-full snap-center justify-center px-4">
+				{@render children(setti, 0)}
+			</div>
+		{/each}
+	</div>
+</div>
+
+<div class="hidden w-full justify-center py-10 md:flex">
+	<div class="relative flex w-full max-w-[800px] justify-center" in:fly={{ y: -400, delay: 400 }}>
 		{#each cards as setti, i (setti)}
 			{@const diff = getDiff(i)}
 
