@@ -44,7 +44,7 @@
 	}
 </script>
 
-<div class="snap-x snap-mandatory overflow-x-auto md:hidden">
+<div class="snap-x snap-mandatory overflow-x-auto md:hidden" in:fly={{ y: -400, delay: 400 }}>
 	<div class="flex">
 		{#each cards as setti, i (i)}
 			<div class="flex min-w-full snap-center justify-center px-4">
@@ -54,8 +54,8 @@
 	</div>
 </div>
 
-<div class="hidden w-full justify-center md:flex">
-	<div class="relative flex w-full max-w-200 justify-center" in:fly={{ y: -400, delay: 400 }}>
+<div class="hidden w-full justify-center md:flex" in:fly={{ y: -400, delay: 400 }}>
+	<div class="relative flex w-full max-w-200 justify-center">
 		{#each cards as setti, i (setti)}
 			{@const diff = getDiff(i)}
 
