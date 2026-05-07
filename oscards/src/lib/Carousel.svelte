@@ -63,7 +63,7 @@
 	</div>
 </div>
 
-<div class:hidden={visible} class="hidden w-full justify-center md:flex" in:fly={{ y: -400 }}>
+<div class:piilotettu={visible} class="hidden w-full justify-center md:flex" in:fly={{ y: -400 }}>
 	<div class="relative flex w-full max-w-200 justify-center">
 		{#each cards as setti, i (setti)}
 			{@const diff = getDiff(i)}
@@ -91,7 +91,7 @@
 </div>
 
 <style>
-	.hidden {
+	.piilotettu {
 		opacity: 0;
 		pointer-events: none;
 		transition: opacity 300ms ease;
