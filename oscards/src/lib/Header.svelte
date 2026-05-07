@@ -16,7 +16,7 @@
 					arrow_back_ios
 				</button>
 			{/if}
-			<!-- Left icon -->
+
 			<a href={resolve('/')} class="flex h-14 w-14 items-center justify-center gap-8">
 				<span
 					class="material-symbols-outlined scale-250 text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300"
@@ -27,7 +27,7 @@
 		</div>
 
 		<div class=" justify-center">
-			<img src={`/img/${otsikko}.png`} alt={otsikko} class="h-auto w-44 md:w-52" />
+			<img src={`/img/${otsikko}.png`} alt={otsikko} class="h-auto w-44 md:w-50" />
 		</div>
 		<div class=" flex flex-1 justify-end">
 			<a href={resolve('/favorites')} class="flex h-14 w-14 items-center justify-end">
