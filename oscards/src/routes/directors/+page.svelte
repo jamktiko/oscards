@@ -40,21 +40,21 @@
 	}}
 />
 
-{#if currentDirector === null}
-	<Carousel kortit={personGroups.directors} id="directors">
-		{#snippet children(director, diff)}
-			<PersonCard
-				nimi={director.name}
-				onclick={diff === 0
-					? () => {
-							currentDirector = director.name;
-							otsikko = 'titles';
-						}
-					: undefined}
-			/>
-		{/snippet}
-	</Carousel>
-{:else}
+<Carousel kortit={personGroups.directors} id="directors" visible={currentDirector !== null}>
+	{#snippet children(director, diff)}
+		<PersonCard
+			nimi={director.name}
+			onclick={diff === 0
+				? () => {
+						currentDirector = director.name;
+						otsikko = 'titles';
+					}
+				: undefined}
+		/>
+	{/snippet}
+</Carousel>
+
+{#if currentDirector !== null}
 	<Carousel kortit={movieCards} id={currentDirector}>
 		{#snippet children(movie)}
 			<MovieCard elokuvaTunnus={movie.imdbId} />

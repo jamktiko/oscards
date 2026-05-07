@@ -5,7 +5,12 @@
 
 	type Kortti = { name: string } | { imdbId: string } | string;
 
-	let { kortit, children, id }: { kortit: Kortti[]; children: Snippet<[any, number]>; id: string } =
+	let {
+		kortit,
+		children,
+		id,
+		visible
+	}: { kortit: Kortti[]; children: Snippet<[any, number]>; id: string; visible?: boolean } =
 		$props();
 
 	const cards = $derived(kortit);
@@ -44,7 +49,11 @@
 	}
 </script>
 
-<div class="snap-x snap-mandatory overflow-x-auto md:hidden" in:fly={{ y: -400, delay: 400 }}>
+<div
+	class:hidden={visible}
+	class="snap-x snap-mandatory overflow-x-auto md:hidden"
+	in:fly={{ y: -400 }}
+>
 	<div class="flex">
 		{#each cards as setti, i (i)}
 			<div class="flex min-w-full snap-center justify-center px-4">
@@ -54,7 +63,7 @@
 	</div>
 </div>
 
-<div class="hidden w-full justify-center md:flex" in:fly={{ y: -400, delay: 400 }}>
+<div class:hidden={visible} class="hidden w-full justify-center md:flex" in:fly={{ y: -400 }}>
 	<div class="relative flex w-full max-w-200 justify-center">
 		{#each cards as setti, i (setti)}
 			{@const diff = getDiff(i)}
@@ -66,7 +75,7 @@
                         transform:
                             translateX(${diff * 260}px)
                             scale(${diff === 0 ? 1 : 0.95});
-                        filter: blur(${diff === 0 ? 0 : 1.5}px);
+                        filter: brightness(${diff === 0 ? 1 : 0.6});
                         opacity: ${Math.abs(diff) <= 1 ? 1 : 0};
                         pointer-events: ${Math.abs(diff) <= 1 ? 'auto' : 'none'};
                         z-index: ${100 - Math.abs(diff)};
@@ -80,3 +89,11 @@
 		{/each}
 	</div>
 </div>
+
+<style>
+	.hidden {
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 300ms ease;
+	}
+</style>

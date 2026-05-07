@@ -39,21 +39,20 @@
 	}}
 />
 
-{#if currentActor === null}
-	<Carousel kortit={personGroups.actors} id="actors">
-		{#snippet children(actor, diff)}
-			<PersonCard
-				nimi={actor.name}
-				onclick={diff === 0
-					? () => {
-							currentActor = actor.name;
-							otsikko = 'titles';
-						}
-					: undefined}
-			/>
-		{/snippet}
-	</Carousel>
-{:else}
+<Carousel kortit={personGroups.actors} id="actors" visible={currentActor !== null}>
+	{#snippet children(actor, diff)}
+		<PersonCard
+			nimi={actor.name}
+			onclick={diff === 0
+				? () => {
+						currentActor = actor.name;
+						otsikko = 'titles';
+					}
+				: undefined}
+		/>
+	{/snippet}
+</Carousel>
+{#if currentActor !== null}
 	<div>
 		<Carousel kortit={movieCards} id={currentActor}>
 			{#snippet children(movie)}
