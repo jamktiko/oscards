@@ -17,12 +17,12 @@
 
 {#if person}
 	<div
-		class="relative mx-auto h-auto w-full max-w-sm overflow-hidden rounded-lg border-2 border-yellow-400 bg-zinc-900 object-cover pt-5 pb-10 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
+		class="relative mx-auto h-135 w-80 max-w-sm overflow-hidden rounded-lg border-2 border-yellow-400 bg-zinc-900 object-cover pb-10 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
 		in:fly={{ y: -400 }}
 	>
-		<button class="h-160 w-90 text-left" {onclick}>
+		<button class="h-135 w-80 text-left" {onclick}>
 			<div
-				class="mx-auto mt-4 aspect-square w-[85%] overflow-hidden rounded-[10px] outline-yellow-400"
+				class="mx-auto mt-2 aspect-square w-[70%] overflow-hidden rounded-[10px] border-2 border-yellow-400"
 			>
 				<img src={kuva} alt="kuva" class="h-auto w-auto object-cover" />
 			</div>
@@ -31,7 +31,7 @@
 				{person?.name}
 			</div>
 
-			<div class="mt-6 ml-4 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+			<div class="mt-6 ml-5 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
 				<div
 					class="font-sm md:text-md flex flex-col items-center space-y-2 font-judson text-lg text-zinc-300"
 				>

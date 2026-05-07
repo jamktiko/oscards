@@ -19,7 +19,7 @@
         fixed top-1/2 left-1/2 z-901 h-[80%]
         w-[90%] -translate-x-1/2 -translate-y-1/2 rounded-md border-2 border-yellow-400
         bg-zinc-900/90 p-4 shadow-lg
-        md:h-150 md:w-100 md:p-6
+        md:h-135 md:w-80 md:p-6
     "
 >
 	<header class="mb-4 flex flex-row">

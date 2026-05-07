@@ -12,4 +12,4 @@
 	});
 </script>
 
-<img src={poster} alt="Ladataan..." class="rounded-lg" />
+<img src={poster} alt="Ladataan..." class="h-65 w-45 rounded-[10px]" />

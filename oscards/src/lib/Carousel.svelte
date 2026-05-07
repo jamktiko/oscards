@@ -54,8 +54,8 @@
 	</div>
 </div>
 
-<div class="hidden w-full justify-center py-10 md:flex">
-	<div class="relative flex w-full max-w-[800px] justify-center" in:fly={{ y: -400, delay: 400 }}>
+<div class="hidden w-full justify-center md:flex">
+	<div class="relative flex w-full max-w-200 justify-center" in:fly={{ y: -400, delay: 400 }}>
 		{#each cards as setti, i (setti)}
 			{@const diff = getDiff(i)}
 
