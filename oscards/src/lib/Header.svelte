@@ -10,7 +10,7 @@
 		<div class="flex flex-1 items-center justify-start gap-10">
 			{#if ehto}
 				<button
-					class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300 hover:cursor-pointer"
+					class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 drop-shadow-[0_3px_1px_rgba(0,0,0,1)] transition-transform hover:scale-300 hover:cursor-pointer"
 					{onclick}
 				>
 					arrow_back_ios
@@ -19,7 +19,7 @@
 
 			<a href={resolve('/')} class="flex h-14 w-14 items-center justify-center gap-8">
 				<span
-					class="material-symbols-outlined scale-250 text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300"
+					class="material-symbols-outlined scale-250 text-yellow-400 drop-shadow-[0_3px_1px_rgba(0,0,0,1)] transition-transform hover:scale-300"
 				>
 					home
 				</span>
@@ -27,12 +27,16 @@
 		</div>
 
 		<div class=" justify-center">
-			<img src={`/img/${otsikko}.png`} alt={otsikko} class="h-auto w-44 md:w-50" />
+			<img
+				src={`/img/${otsikko}.png`}
+				alt={otsikko}
+				class="h-15 w-auto drop-shadow-[0_4px_2px_rgba(0,0,0,1)]"
+			/>
 		</div>
 		<div class=" flex flex-1 justify-end">
 			<a href={resolve('/favorites')} class="flex h-14 w-14 items-center justify-end">
 				<span
-					class="material-symbols-outlined scale-250 text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300"
+					class="material-symbols-outlined scale-250 text-yellow-400 drop-shadow-[0_3px_1px_rgba(0,0,0,1)] transition-transform hover:scale-300"
 				>
 					favorite
 				</span>

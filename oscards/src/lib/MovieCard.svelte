@@ -70,7 +70,7 @@
 		<h2 class="font-judson text-2xl font-bold text-zinc-300">Streaming on:</h2>
 		<div class=" flex flex-wrap gap-3">
 			{#if movie?.streaming.length === 0}
-				<div class=" flex flex-col gap-1 font-judson text-white">
+				<div class=" flex flex-col gap-1 font-judson text-zinc-300">
 					<p class="text-lg">Not available</p>
 				</div>
 			{/if}
