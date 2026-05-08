@@ -93,20 +93,6 @@
 		{/each}
 	</div>
 </div>
-<div class="mt-140 flex gap-6 justify-self-center">
-	<button
-		class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300 hover:cursor-pointer"
-		onclick={() => prev()}
-	>
-		arrow_back_ios
-	</button>
-	<button
-		class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300 hover:cursor-pointer"
-		onclick={() => next()}
-	>
-		arrow_forward_ios
-	</button>
-</div>
 
 <style>
 	.piilotettu {
