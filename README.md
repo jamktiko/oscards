@@ -1,13 +1,11 @@
---START
-This is a example template, which you can use. Version 1.0.
---END
+
 # Oscards
 
-Löydät oscar voittajat ja heidän teoksia
 
 ## Description
 
-Oscard on .....
+Oscards tarjoilee käyttäjilleen maistiaisen mahtavaa ja hieman juhlallistakin elokuvatunnelmaa tutustuttaessaan heidät Oscareita voittaneiden näyttelijöiden, ohjaajien sekä elokuvien maailmaan!
+Uusia, itselle mielenkiintoiselta vaikuttavia elokuvia on myös mahdollista lisätä omalle suosikkilistalleen myöhempiä elokuvahetkiä ajatellen. Samalla sovellus näyttää myös suoratoistopalvelut, joissa elokuva on katseltavissa.
 
 ## Getting Started
 
@@ -59,4 +57,4 @@ This project is licensed under the CC BY-SA 4.0 License - see the LICENSE.md fil
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Teemainspiraatiota on otettu IMDB:n, Finnkinon sekä Oscar Awardsien sivuilta.
