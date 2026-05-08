@@ -16,8 +16,3 @@
 	</div>
 </a>
 
-<style>
-	button {
-		cursor: pointer;
-	}
-</style>
