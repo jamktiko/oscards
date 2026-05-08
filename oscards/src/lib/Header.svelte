@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	let { otsikko, ehto, onclick }: { otsikko?: string; ehto: boolean; onclick: () => void } =
+	let { otsikko, ehto, onclick }: { otsikko?: string; ehto?: boolean; onclick?: () => void } =
 		$props();
 </script>
 
 <header class="w-full py-8">
-	<div class="mx-auto flex max-w-7xl items-center justify-between px-6">
-		<div class="flex items-center gap-4">
+	<div class="mx-auto flex max-w-7xl items-center px-4">
+		<div class="flex w-28 items-center gap-2">
 			{#if ehto}
 				<button
 					class="flex h-12 w-12 origin-center items-center justify-center overflow-hidden rounded-md border-2 border-yellow-400 bg-zinc-900/55 transition-transform hover:scale-115"
@@ -32,11 +32,11 @@
 			<img
 				src={`/img/${otsikko}.png`}
 				alt={otsikko}
-				class="h-10 w-auto drop-shadow-[0_4px_2px_rgba(0,0,0,1)] md:h-15 md:w-auto"
+				class="h-10 w-auto drop-shadow-[0_4px_2px_rgba(0,0,0,1)] md:h-15"
 			/>
 		</div>
 
-		<div class="flex items-center">
+		<div class="flex w-28 justify-end">
 			<a
 				href={resolve('/favorites')}
 				class="flex h-12 w-12 origin-center items-center justify-center overflow-hidden rounded-md border-2 border-yellow-400 bg-zinc-900/55 transition-transform hover:scale-115"
