@@ -5,6 +5,7 @@
 	import { favorite } from '$lib/favorites.svelte';
 	import { modalVisible } from '$lib/modalStore';
 	import { favoriteMessage } from '$lib/favoriteMessageStore';
+	
 
 	let { elokuvaTunnus }: { elokuvaTunnus: string } = $props();
 	let movies: Movie[] = $state([]);
