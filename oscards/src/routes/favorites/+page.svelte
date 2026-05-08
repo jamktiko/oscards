@@ -36,7 +36,7 @@
 <Carousel kortit={favorite.fav} id="favorites">
 	{#snippet children(setti, diff)}
 		<div class="flex flex-col items-center">
-			<div class="w-100">
+			<div class="">
 				<button
 					onclick={diff === 0
 						? () => {

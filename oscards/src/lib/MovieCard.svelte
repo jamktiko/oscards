@@ -5,7 +5,6 @@
 	import { favorite } from '$lib/favorites.svelte';
 	import { modalVisible } from '$lib/modalStore';
 	import { favoriteMessage } from '$lib/favoriteMessageStore';
-	
 
 	let { elokuvaTunnus }: { elokuvaTunnus: string } = $props();
 	let movies: Movie[] = $state([]);
@@ -60,7 +59,7 @@
 	<div class="mt-4 flex flex-col items-center font-judson text-zinc-300">
 		<h2 class="text-2xl font-bold">{movie?.title}</h2>
 
-		<div class="mt-2 flex flex-col gap-1 text-lg">
+		<div class="mt-2 flex flex-col items-center gap-1 text-lg">
 			<p>Year: {movie?.year}</p>
 			<p>{runTime(movie?.length ?? 0)}</p>
 			<p>IMDb rating: {movie?.imdbRating}</p>
