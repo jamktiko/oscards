@@ -6,6 +6,7 @@
 	import Modal from '$lib/Modal.svelte';
 	import { onMount } from 'svelte';
 	import type { Movie } from '$lib/tyypit';
+	import { fly } from 'svelte/transition';
 
 	let showCard = $state(false);
 	let selectedMovie = $state<string | null>(null);
@@ -35,19 +36,17 @@
 
 <Carousel kortit={favorite.fav} id="favorites">
 	{#snippet children(setti, diff)}
-		<div class="flex flex-col items-center">
-			<div class="">
-				<button
-					onclick={diff === 0
-						? () => {
-								showCard = true;
-								selectedMovie = setti;
-							}
-						: undefined}
-				>
-					<Poster elokuvaTunnus={setti} />
-				</button>
-			</div>
+		<div class="flex flex-col items-center" out:fly={{ y: 1000 }}>
+			<button
+				onclick={diff === 0
+					? () => {
+							showCard = true;
+							selectedMovie = setti;
+						}
+					: undefined}
+			>
+				<Poster elokuvaTunnus={setti} />
+			</button>
 
 			<button
 				class="m-1 mt-4 self-center rounded-2xl border-2 border-yellow-400 bg-zinc-900/55 px-4 py-2 font-judson text-xl font-bold text-yellow-400 shadow-2xl transition-transform hover:scale-105"

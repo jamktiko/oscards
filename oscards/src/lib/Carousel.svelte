@@ -57,7 +57,7 @@
 	in:fly={{ y: -400 }}
 >
 	<div class="flex">
-		{#each cards as setti, i (i)}
+		{#each cards as setti (setti)}
 			<div class="flex min-w-full snap-center justify-center px-4">
 				{@render children(setti, 0)}
 			</div>
