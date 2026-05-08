@@ -10,12 +10,14 @@
 		children,
 		id,
 		visible
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	}: { kortit: Kortti[]; children: Snippet<[any, number]>; id: string; visible?: boolean } =
 		$props();
 
 	const cards = $derived(kortit);
 	let currentIndex: number = $state(0);
 
+	// svelte-ignore state_referenced_locally
 	const store = getCarouselStore(id);
 	const unsub = store.subscribe((x) => (currentIndex = x));
 
@@ -68,7 +70,9 @@
 		{#each cards as setti, i (setti)}
 			{@const diff = getDiff(i)}
 
-			<button onclick={() => handleClick(diff)}>
+			<!-- svelte-ignore a11y_click_events_have_key_events -->
+			<!-- svelte-ignore a11y_no_static_element_interactions -->
+			<div onclick={() => handleClick(diff)}>
 				<div
 					class="absolute left-1/2 -translate-x-1/2 will-change-transform"
 					style={`
@@ -85,9 +89,23 @@
 				>
 					{@render children(setti, diff)}
 				</div>
-			</button>
+			</div>
 		{/each}
 	</div>
+</div>
+<div class="mt-140 flex gap-6 justify-self-center">
+	<button
+		class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300 hover:cursor-pointer"
+		onclick={() => prev()}
+	>
+		arrow_back_ios
+	</button>
+	<button
+		class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 drop-shadow-[0_6px_3px_rgba(0,0,0,1)] transition-transform hover:scale-300 hover:cursor-pointer"
+		onclick={() => next()}
+	>
+		arrow_forward_ios
+	</button>
 </div>
 
 <style>
