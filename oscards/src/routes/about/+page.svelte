@@ -38,6 +38,7 @@
 					<p>Joel Hänninen</p>
 					<p>Nathalie Penttinen</p>
 					<p>Patrick Uimonen</p>
+					<p class="pt-2">Ohjelmistoprojekti 1, Tietojenkäsittelyn tutkinto-ohjelma</p>
 				</div>
 			{/if}
 		</div>
