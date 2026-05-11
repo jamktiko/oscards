@@ -15,5 +15,5 @@
 <img
 	src={poster}
 	alt="Poster"
-	class={`rounded-[10px] object-cover ${className || 'h-135 w-80 border-2 border-yellow-400'}`}
+	class={`rounded-[10px] object-cover ${className || 'h-120 w-80 border-2 border-yellow-400 md:h-130 md:w-85'}`}
 />
