@@ -18,7 +18,7 @@
 
 ## Projektin tiedot
 
-/<Oscards>
+### Oscards
 
 Tekijät:
 Joel Hänninen
@@ -63,7 +63,10 @@ _Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte
 | Tuotanto jatkuu     | 28.04.2026 | UI/Prototyypit, Sveltekoodausta          |
 | Tuotanto jatkuu     | 04.05.2026 | Sveltekoodausta, tyylittelyä             |
 | Tuotanto jatkuu     | 06.05.2026 | Sveltekoodausta, tyylittelyä             |
-| Projekti päättyy    | 16.05.2026 | Ohjelmistoprojekti 1 päättyy             |
+| Tuotanto jatkuu     | 08.05.2026 | Loppuviimeistelyiden aloitus             |
+| Lopettelua          | 11.05.2026 | Loppuhiontaa, markkinointivideo          |
+| Projekti valmis     | 12.05.2026 | Markkinointivideo, pitchaus              |
+| Projekti päättyy    | 13.05.2026 | Ohjelmistoprojekti 1 päättyy             |
 
 ## Raportointi, kommunikointi ja dokumentointi
 
@@ -90,10 +93,6 @@ _Viikkoraportit tärkeitä sekä tarvittaessa kuvat, joita jakaa teamsissa._
 ### Dokumenttien hallinta
 
 ## Riskien hallinta
-
-_Kuvaa tässä kuinka projekti aikoo hallinnoida ja seurata projektiriskejä._
-
-Esimerkiksi näin.
 
 | Riskit                                                                     | Todennäköisyys | Impakti     | Minimointi                                    |
 | -------------------------------------------------------------------------- | -------------- | ----------- | --------------------------------------------- |
