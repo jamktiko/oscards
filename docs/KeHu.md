@@ -95,7 +95,7 @@ Meidän sovellus ei edellytä muiden laitteiden tai lisätarvikkeiden hankintaa.
 <!-- Onko sovellus mukautettavissa muuttuviin tarpeisiin ja vaatimuksiin? -->
 <!-- Onko sovelluksen lähdekoodi ja kehitysprosessi dokumentoitu? -->
 
-Sovelluksen käyttö on ilmaista, asiakkaiden raportoimat vikat tai haitat sovelluksesta korjataan.
+Sovelluksen käyttö on ilmaista, asiakkaiden raportoimat viaat tai haitat sovelluksesta korjataan.
 
 ### 6. Kuinka sovelluksessa on huomioitu saavutettavuus ja yhdenvertaisuus?
 
@@ -107,7 +107,7 @@ Sovelluksen käyttö on ilmaista, asiakkaiden raportoimat vikat tai haitat sovel
 <!-- Millaista osaamista ja varallisuutta sovelluksen käyttö vaatii? -->
 <!-- Millä kielillä sovellus on saatavilla? -->
 
-Pyritään pitämään kontrastit saavutettavina kaikille, sovelluksen teeman saa vaihdettua ja sovelluksen kieli on englanniksi. Pyritään myös pitämään fontit kaikille lueattavissa ja selkeinä.
+Pyritään pitämään kontrastit saavutettavina kaikille ja sovelluksen kieli on englanniksi. Pyritään myös pitämään fontit kaikille lueattavissa ja selkeinä.
 
 ### 7. Millaisia vaikutuksia sovelluksella voi olla käyttäjälle tai hänen lähipiirilleen?
 
