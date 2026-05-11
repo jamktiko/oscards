@@ -28,7 +28,7 @@
 			{person?.name}
 		</div>
 
-		<div class="mt-6 ml-5 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+		<div class="mt-6 flex flex-col gap-6 md:ml-5 md:flex-row md:items-start md:justify-between">
 			<div class="font-sm md:text-md flex flex-col items-center font-judson text-lg text-zinc-300">
 				<div>B. {person?.born}</div>
 				<div>{person?.nationality}</div>
