@@ -11,7 +11,7 @@ export const movieGroups = {
 		{ imdbId: 'tt14230458' }, // Poor Things
 		{ imdbId: 'tt1454029' }, // The Help
 		{ imdbId: 'tt1282140' }, // Easy A
-		{ imdbId: 'tt27491225' } // Bugonia
+		{ imdbId: 'tt12300742' } // Bugonia
 	],
 	leonardoDiCaprio: [
 		{ imdbId: 'tt1663202' }, // The Revenant

@@ -9,7 +9,7 @@
   {"id":7,"title":"Poor Things","year":2023,"length":141,"imdbRating":8.0,"oscarWins":4,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"},{"app":"PrimeVideo","url":"https://www.primevideo.com/"}],"imdbID":"tt14230458"},
   {"id":8,"title":"The Help","year":2011,"length":146,"imdbRating":8.1,"oscarWins":1,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"}],"imdbID":"tt1454029"},
   {"id":9,"title":"Easy A","year":2010,"length":92,"imdbRating":7.0,"oscarWins":0,"streaming":[],"imdbID":"tt1282140"},
-  {"id":10,"title":"Bugonia","year":2024,"length":120,"imdbRating":6.5,"oscarWins":0,"streaming":[],"imdbID":"tt27491225"},
+  {"id":10,"title":"Bugonia","year":2025,"length":118,"imdbRating":7.4,"oscarWins":0,"streaming":[],"imdbID":"tt12300742"},
 
   {"id":11,"title":"The Revenant","year":2015,"length":156,"imdbRating":8.0,"oscarWins":3,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"},{"app":"Netflix","url":"https://www.netflix.com/"}],"imdbID":"tt1663202"},
   {"id":12,"title":"Titanic","year":1997,"length":195,"imdbRating":7.9,"oscarWins":11,"streaming":[{"app":"DisneyPlus","url":"https://www.disneyplus.com/"}],"imdbID":"tt0120338"},
