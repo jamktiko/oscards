@@ -25,7 +25,7 @@
 	class="relative mx-auto h-135 w-80 max-w-sm rounded-xl border-2 border-yellow-400 bg-zinc-900 p-4 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
 >
 	<button
-		class="material-symbols-outlined absolute top-6 right-7 scale-150 cursor-pointer text-yellow-400 hover:text-yellow-400"
+		class="material-symbols-outlined absolute top-6 right-7 scale-150 text-yellow-400 transition-transform hover:scale-200 hover:cursor-pointer"
 		style:font-variation-settings="'FILL' {favorite.fav.includes(elokuvaTunnus) ? 1 : 0}"
 		onclick={() => {
 			if (favorite.fav.includes(elokuvaTunnus)) {
