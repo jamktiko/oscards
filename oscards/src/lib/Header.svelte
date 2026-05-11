@@ -7,6 +7,14 @@
 <header class="w-full py-8">
 	<div class="mx-auto flex max-w-7xl items-center px-4">
 		<div class="flex w-28 items-center gap-2">
+			<a
+				href={resolve('/')}
+				class="flex h-12 w-12 origin-center items-center justify-center overflow-hidden rounded-md border-2 border-yellow-400 bg-zinc-900/55 transition-transform hover:scale-115"
+			>
+				<span class="material-symbols-outlined mb-1 scale-200 text-6xl text-yellow-400">
+					home
+				</span>
+			</a>
 			{#if ehto}
 				<button
 					class="flex h-12 w-12 origin-center items-center justify-center overflow-hidden rounded-md border-2 border-yellow-400 bg-zinc-900/55 transition-transform hover:scale-115"
@@ -17,15 +25,6 @@
 					</span>
 				</button>
 			{/if}
-
-			<a
-				href={resolve('/')}
-				class="flex h-12 w-12 origin-center items-center justify-center overflow-hidden rounded-md border-2 border-yellow-400 bg-zinc-900/55 transition-transform hover:scale-115"
-			>
-				<span class="material-symbols-outlined mb-1 scale-200 text-6xl text-yellow-400">
-					home
-				</span>
-			</a>
 		</div>
 
 		<div class="flex flex-1 justify-center">
