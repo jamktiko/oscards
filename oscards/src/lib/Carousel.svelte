@@ -71,13 +71,13 @@
 			{@const diff = getDiff(i)}
 			{#if diff === 0}
 				<button
-					class="material-symbols-outlined absolute top-60 left-1/4 z-999 scale-400 text-5xl text-yellow-400 drop-shadow-[0_3px_1px_rgba(0,0,0,1)] transition-transform hover:scale-450 hover:cursor-pointer"
+					class="material-symbols-outlined absolute top-60 left-1/4 z-900 scale-400 text-5xl text-yellow-400 drop-shadow-[0_3px_1px_rgba(0,0,0,1)] transition-transform hover:scale-450 hover:cursor-pointer"
 					onclick={() => prev()}
 				>
 					arrow_back_ios
 				</button>,
 				<button
-					class="material-symbols-outlined absolute top-60 right-7/32 z-999 scale-400 text-5xl text-yellow-400 drop-shadow-[0_3px_1px_rgba(0,0,0,1)] transition-transform hover:scale-450 hover:cursor-pointer"
+					class="material-symbols-outlined absolute top-60 right-7/32 z-900 scale-400 text-5xl text-yellow-400 drop-shadow-[0_3px_1px_rgba(0,0,0,1)] transition-transform hover:scale-450 hover:cursor-pointer"
 					onclick={() => next()}
 				>
 					arrow_forward_ios

@@ -59,7 +59,7 @@
 </Carousel>
 
 {#if showCard}
-	<Modal>
+	<Modal onclick={() => (showCard = false)}>
 		{#snippet header()}
 			<button
 				class="material-symbols-outlined ml-[4%] scale-200 text-5xl text-yellow-400 hover:cursor-pointer"

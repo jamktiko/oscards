@@ -5,13 +5,15 @@
 		header?: Snippet;
 		footer?: Snippet;
 		children: Snippet;
-		close: () => void;
+		onclick: () => void;
 	}
 
-	let { header, footer, children }: Props = $props();
+	let { header, footer, children, onclick }: Props = $props();
 </script>
 
-<div class="fixed inset-0 z-900 bg-black/75"></div>
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<div {onclick} class="fixed inset-0 z-900 bg-black/75"></div>
 
 <div
 	class="
