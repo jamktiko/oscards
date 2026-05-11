@@ -30,7 +30,9 @@
 
 {#if favorite.fav.length === 0}
 	<div class="flex h-[50%] items-center justify-center">
-		<p class="font-judson text-3xl font-bold text-yellow-400">No favorites yet</p>
+		<p class="font-judson text-3xl font-bold text-yellow-400 drop-shadow-[0_5px_2px_rgba(0,0,0,1)]">
+			No favorites yet
+		</p>
 	</div>
 {/if}
 
