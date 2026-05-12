@@ -41,15 +41,17 @@
 
 <Carousel kortit={personGroups.actors} id="actors" visible={currentActor !== null}>
 	{#snippet children(actor, diff)}
-		<PersonCard
-			nimi={actor.name}
-			onclick={diff === 0
-				? () => {
-						currentActor = actor.name;
-						otsikko = 'titles';
-					}
-				: undefined}
-		/>
+		<div class={`transition-transform ${diff === 0 ? 'hover:scale-105' : 'hover:scale'}`}>
+			<PersonCard
+				nimi={actor.name}
+				onclick={diff === 0
+					? () => {
+							currentActor = actor.name;
+							otsikko = 'titles';
+						}
+					: undefined}
+			/>
+		</div>
 	{/snippet}
 </Carousel>
 {#if currentActor !== null}

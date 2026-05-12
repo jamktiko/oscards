@@ -39,17 +39,18 @@
 <Carousel kortit={favorite.fav} id="favorites">
 	{#snippet children(setti, diff)}
 		<div class="flex flex-col items-center" out:fly={{ y: 1000 }}>
-			<button
-				onclick={diff === 0
-					? () => {
-							showCard = true;
-							selectedMovie = setti;
-						}
-					: undefined}
-			>
-				<Poster elokuvaTunnus={setti} />
-			</button>
-
+			<div class={`transition-transform ${diff === 0 ? 'hover:scale-105' : 'hover:scale'}`}>
+				<button
+					onclick={diff === 0
+						? () => {
+								showCard = true;
+								selectedMovie = setti;
+							}
+						: undefined}
+				>
+					<Poster elokuvaTunnus={setti} />
+				</button>
+			</div>
 			<button
 				class="m-1 mt-4 self-center rounded-2xl border-2 border-yellow-400 bg-zinc-900/55 px-4 py-2 font-judson text-xl font-bold text-yellow-400 shadow-2xl transition-transform hover:scale-105"
 				onclick={() => (favorite.unfav = setti)}>Remove</button
