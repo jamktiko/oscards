@@ -35,7 +35,7 @@ Install dependencies:
 
 ### Executing program
 
-- Launch a local server
+Launch a local server
 
 ```
 npm run dev
