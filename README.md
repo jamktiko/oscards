@@ -11,29 +11,36 @@ Uusia, itselle mielenkiintoiselta vaikuttavia elokuvia on myös mahdollista lis�
 
 ### Dependencies
 
-- Describe any prerequisites, libraries, frameworks, etc., the sofware uses.
+- Svelte
+- Node
+- npm
+- Prettier
+- Eslint
+- Vite
+- Tailwind
+- Netlify
+- Google Fonts
 
 ### Installing
 
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+Clone repository:
+```
+  git clone https://github.com/jamktiko/oscards.git
+```
+Install dependencies:
+```
+  npm install
+```
+  
 
 ### Executing program
 
-- How to run the program
-- Step-by-step bullets
+- Launch a local server
 
 ```
-code blocks for commands
+npm run dev
 ```
 
-## Help
-
-Any advise for common problems or issues.
-
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
@@ -41,10 +48,7 @@ Tuomas Huhtala, Patrick Uimonen, Nathalie Penttilä, Joel Hänninen
 
 ## Version History
 
-- 0.2
-  - Various bug fixes and optimizations
-- 0.1
-  - Initial Release
+- xxxx
 
 ## License
 
