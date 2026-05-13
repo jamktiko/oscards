@@ -37,13 +37,16 @@
 			</div>
 
 			<div
-				class="flex items-center justify-center font-judson text-lg font-medium text-zinc-300 md:pt-10 md:pr-10 md:text-xl"
+				class="flex items-center justify-center font-judson text-lg font-medium text-zinc-300 md:flex-col md:pt-1 md:pr-10 md:text-xl"
 			>
 				<img
 					src="/img/oscarPalkinto.png"
 					alt="oscar"
-					class="h-15 w-auto drop-shadow-[0_0_15px_rgba(239,191,4,1)] md:h-20"
+					class="h-12 w-auto drop-shadow-[0_0_15px_rgba(239,191,4,1)] md:h-18"
 				/>
+				<p class="font-judson text-3xl text-zinc-300">
+					x {person?.ocscarWins}
+				</p>
 			</div>
 		</div>
 	</button>
