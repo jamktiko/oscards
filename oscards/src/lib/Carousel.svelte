@@ -97,7 +97,7 @@
                         pointer-events: ${Math.abs(diff) <= 1 ? 'auto' : 'none'};
                         z-index: ${100 - Math.abs(diff)};
                         transition: all 0.45s ease;
-                        cursor: ${diff !== 0 ? 'pointer' : 'default'};
+                        cursor: ${diff === 0 ? 'pointer' : 'default'};
                     `}
 				>
 					{@render children(setti, diff)}

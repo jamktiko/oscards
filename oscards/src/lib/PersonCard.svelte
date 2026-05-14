@@ -14,10 +14,13 @@
 	let kuva = $derived(person?.image);
 </script>
 
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
 	class="relative mx-auto h-135 w-80 max-w-sm overflow-hidden rounded-lg border-2 border-yellow-400 bg-zinc-900 object-cover pb-10 shadow-[0_0_35px_rgba(0,0,0,0.55)]"
+	{onclick}
 >
-	<button class="h-135 w-80 text-left" {onclick}>
+	<div class="mt-12 h-135 w-80 text-left">
 		<div
 			class="mx-auto mt-2 aspect-square w-[70%] overflow-hidden rounded-[10px] border-2 border-yellow-400"
 		>
@@ -49,5 +52,5 @@
 				</p>
 			</div>
 		</div>
-	</button>
+	</div>
 </div>
